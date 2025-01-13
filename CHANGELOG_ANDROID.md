@@ -1,5 +1,1218 @@
 # Changelog
 
+## [1.73.105](https://github.com/brave/brave-browser/releases/tag/v1.73.105)
+
+ - [Security] Fixed race condition which caused a crash in Brave Wallet as reported on HackerOne by renwa. ([#43147](https://github.com/brave/brave-browser/issues/43147))
+ - Upgraded Chromium to 131.0.6778.265. ([#43154](https://github.com/brave/brave-browser/issues/43154)) ([Changelog for 131.0.6778.265](https://chromium.googlesource.com/chromium/src/+log/131.0.6778.204..131.0.6778.265?pretty=fuller&n=1000))
+
+## [1.73.104](https://github.com/brave/brave-browser/releases/tag/v1.73.104)
+
+### Web3
+
+ - Fixed a crash that occurred when accessing Wallet in certain cases. ([#42860](https://github.com/brave/brave-browser/issues/42860))
+
+### General
+
+ - Upgraded Chromium to 131.0.6778.204. ([#42971](https://github.com/brave/brave-browser/issues/42971)) ([Changelog for 131.0.6778.204](https://chromium.googlesource.com/chromium/src/+log/131.0.6778.139..131.0.6778.204?pretty=fuller&n=1000))
+
+## [1.73.101](https://github.com/brave/brave-browser/releases/tag/v1.73.101)
+
+ - Fixed Brave Leo conversations not being persisted when closing and opening the panel on the same content. ([#42510](https://github.com/brave/brave-browser/issues/42510))
+ - Fixed an issue preventing users from enabling "Passwords" in the sync chain. ([#36190](https://github.com/brave/brave-browser/issues/36190))
+ - Upgraded Chromium to 131.0.6778.139. ([#42804](https://github.com/brave/brave-browser/issues/42804)) ([Changelog for 131.0.6778.139](https://chromium.googlesource.com/chromium/src/+log/131.0.6778.108..131.0.6778.139?pretty=fuller&n=1000))
+
+## [1.73.97](https://github.com/brave/brave-browser/releases/tag/v1.73.97)
+
+### Web3
+
+ - Improved Solana swap failure rate. ([#42434](https://github.com/brave/brave-browser/issues/42434))
+ - Fixed an issue where sign-in with Ethereum didn't work. ([#42527](https://github.com/brave/brave-browser/issues/42527))
+
+### Rewards
+
+ - Replaced the "Earnings so far" indicator in Brave Rewards UI. ([#42476](https://github.com/brave/brave-browser/issues/42476))
+
+### General
+
+ - Fixed quick actions under "/" in Brave Leo. ([#42279](https://github.com/brave/brave-browser/issues/42279))
+ - Upgraded Chromium to 131.0.6778.108. ([#42639](https://github.com/brave/brave-browser/issues/42639)) ([Changelog for 131.0.6778.108](https://chromium.googlesource.com/chromium/src/+log/131.0.6778.85..131.0.6778.108?pretty=fuller&n=1000))
+
+## [1.73.91](https://github.com/brave/brave-browser/releases/tag/v1.73.91)
+
+ - Fixed missing site settings permissions in certain cases. ([#42313](https://github.com/brave/brave-browser/issues/42313))
+ - Upgraded Chromium to 131.0.6778.85. ([#42377](https://github.com/brave/brave-browser/issues/42377)) ([Changelog for 131.0.6778.85](https://chromium.googlesource.com/chromium/src/+log/131.0.6778.69..131.0.6778.85?pretty=fuller&n=1000))
+
+## [1.73.89](https://github.com/brave/brave-browser/releases/tag/v1.73.89)
+
+### Web3
+
+ - Added a warning message and confirmation dialog for transaction submission in Brave Wallet. ([#41819](https://github.com/brave/brave-browser/issues/41819))
+ - Improved UI for transaction confirmation in Brave Wallet. ([#41122](https://github.com/brave/brave-browser/issues/41122))
+ - Fixed a crash that occurred when signing Solana DApp transaction in Brave Wallet. ([#41946](https://github.com/brave/brave-browser/issues/41946))
+ - Fixed a crash that occurred when signing Solana DApp message in Brave Wallet. ([#41945](https://github.com/brave/brave-browser/issues/41945))
+
+### General
+
+ - Added support for procedural cosmetic filtering. ([#16935](https://github.com/brave/brave-browser/issues/16935))
+ - Added annual subscription and trial period for Brave Leo. ([#41008](https://github.com/brave/brave-browser/issues/41008))
+ - Improved Brave Leo internationalization support for French, Spanish, German, and Italian. ([#41554](https://github.com/brave/brave-browser/issues/41554))
+ - Improved automatic VPN server selection to connect to closest server of user's time zone. ([#41869](https://github.com/brave/brave-browser/issues/41869))
+ - Improved VPN server selection to connect to a specific region(s) when "Automatic" toggle is disabled. ([#41557](https://github.com/brave/brave-browser/issues/41557))
+ - Updated VPN settings screen to show country flag and server selection details. ([#41894](https://github.com/brave/brave-browser/issues/41894)) & ([#41595](https://github.com/brave/brave-browser/issues/41595))
+ - Fixed Simplified View to work for both Regular and Private tabs. ([#42087](https://github.com/brave/brave-browser/issues/42087))
+ - Fixed crash when use "Scan QR Code" in certain cases. ([#41454](https://github.com/brave/brave-browser/issues/41454))
+ - Upgraded Chromium to 131.0.6778.69. ([#42245](https://github.com/brave/brave-browser/issues/42245)) ([Changelog for 131.0.6778.69](https://chromium.googlesource.com/chromium/src/+log/130.0.6723.116..131.0.6778.69?pretty=fuller&n=1000))
+
+## [1.71.123](https://github.com/brave/brave-browser/releases/tag/v1.71.123)
+
+ - Upgraded Chromium to 130.0.6723.116. ([#42088](https://github.com/brave/brave-browser/issues/42088)) ([Changelog for 130.0.6723.116](https://chromium.googlesource.com/chromium/src/+log/130.0.6723.91..130.0.6723.116?pretty=fuller&n=1000))
+
+## [1.71.121](https://github.com/brave/brave-browser/releases/tag/v1.71.121)
+
+ - Fixed missing "Share", "Copy" and "Edit" buttons when "Show browser suggestions" was disabled. ([#41806](https://github.com/brave/brave-browser/issues/41806))
+ - Fixed missing "Link you copied" button when "Show browser suggestions" was disabled. ([#41951](https://github.com/brave/brave-browser/issues/41951))
+ - Upgraded Chromium to 130.0.6723.91. ([#41960](https://github.com/brave/brave-browser/issues/41960)) ([Changelog for 130.0.6723.91](https://chromium.googlesource.com/chromium/src/+log/130.0.6723.70..130.0.6723.91?pretty=fuller&n=1000))
+
+## [1.71.118](https://github.com/brave/brave-browser/releases/tag/v1.71.118)
+
+ - Updated default search engine to Brave Search for new installations in Australia. ([#41456](https://github.com/brave/brave-browser/issues/41456))
+ - Upgraded Chromium to 130.0.6723.70. ([#41804](https://github.com/brave/brave-browser/issues/41804)) ([Changelog for 130.0.6723.70](https://chromium.googlesource.com/chromium/src/+log/130.0.6723.58..130.0.6723.70?pretty=fuller&n=1000))
+
+## [1.71.114](https://github.com/brave/brave-browser/releases/tag/v1.71.114)
+
+### Web3
+
+ - Added support for resolving new UD TLDs. ([#40543](https://github.com/brave/brave-browser/issues/40543))
+ - Improved authentication process for biometric unlock during Brave Wallet onboarding. ([#40188](https://github.com/brave/brave-browser/issues/40188))
+ - Updated Brave Wallet's unlock screen to use native Android unlock screen UI. ([#40224](https://github.com/brave/brave-browser/issues/40224))
+ - Fixed missing "Invalid URL" message when adding a custom network with "http://" URLs. ([#40498](https://github.com/brave/brave-browser/issues/40498))
+ - Fixed the disappearance of the "Network list" in Brave Wallet when switching the device's system theme. ([#40496](https://github.com/brave/brave-browser/issues/40496))
+
+### General
+
+ - Added support for local vector search for the selection of key text segments of page and video context while using Brave Leo. ([#36801](https://github.com/brave/brave-browser/issues/36801))
+ - Updated the source within the URL for search suggestions. ([#41112](https://github.com/brave/brave-browser/issues/41112))
+ - Updated the VPN server selection UI to display more granular region details, including countries, cities, and servers. ([#36277](https://github.com/brave/brave-browser/issues/36277))
+ - Updated Sync chain's device list icons to use proper mobile version. ([#7359](https://github.com/brave/brave-browser/issues/7359))
+ - Removed known tracking parameter "srsltid" from URLs. ([#40912](https://github.com/brave/brave-browser/issues/40912))
+ - Removed known tracking parameter "_bhlid" from URLs. ([#40716](https://github.com/brave/brave-browser/issues/40716))
+ - Fixed crash which occurred when visiting brave://branded-wallpaper or brave://background-wallpaper. ([#40807](https://github.com/brave/brave-browser/issues/40807))
+ - Fixed scriptlets not working in about:blank frames. ([#40703](https://github.com/brave/brave-browser/issues/40703))
+ - Fixed an issue where sites using OpenSearch weren't consistently appearing in Brave's "Recently visited" search engines. ([#38129](https://github.com/brave/brave-browser/issues/38129))
+ - Upgraded Chromium to 130.0.6723.58. ([#41651](https://github.com/brave/brave-browser/issues/41651)) ([Changelog for 130.0.6723.58](https://chromium.googlesource.com/chromium/src/+log/129.0.6668.100..130.0.6723.58?pretty=fuller&n=1000))
+
+## [1.70.126](https://github.com/brave/brave-browser/releases/tag/v1.70.126)
+
+ - Fixed the automatic opening of a new tab upon launching Brave. ([#41029](https://github.com/brave/brave-browser/issues/41029))
+ - Fixed a crash occurring when Brave was selected as the autofill provider. ([#41254](https://github.com/brave/brave-browser/issues/41254))
+ - Upgraded Chromium to 129.0.6668.100. ([#41494](https://github.com/brave/brave-browser/issues/41494)) ([Changelog for 129.0.6668.100](https://chromium.googlesource.com/chromium/src/+log/129.0.6668.89..129.0.6668.100?pretty=fuller&n=1000))
+
+## [1.70.123](https://github.com/brave/brave-browser/releases/tag/v1.70.123)
+
+ - Upgraded Chromium to 129.0.6668.89. ([#41338](https://github.com/brave/brave-browser/issues/41338)) ([Changelog for 129.0.6668.89](https://chromium.googlesource.com/chromium/src/+log/129.0.6668.70..129.0.6668.89?pretty=fuller&n=1000))
+
+## [1.70.119](https://github.com/brave/brave-browser/releases/tag/v1.70.119)
+
+ - Fixed Proofpoint's urldefense.com redirects. ([#41134](https://github.com/brave/brave-browser/issues/41134))
+ - Upgraded Chromium to 129.0.6668.70. ([#41234](https://github.com/brave/brave-browser/issues/41234)) ([Changelog for 129.0.6668.70](https://chromium.googlesource.com/chromium/src/+log/129.0.6668.59..129.0.6668.70?pretty=fuller&n=1000))
+
+## [1.70.117](https://github.com/brave/brave-browser/releases/tag/v1.70.117)
+
+### Web3
+
+ - Added available route selection for "Swap" and "Bridge" transactions. ([#38648](https://github.com/brave/brave-browser/issues/38648))
+ - Added new recovery screens for users restoring access to existing Brave Wallet. ([#40168](https://github.com/brave/brave-browser/issues/40168))
+ - Fixed an issue preventing Brave Wallet from loading after resetting and restoring a wallet. ([#39608](https://github.com/brave/brave-browser/issues/39608))
+
+### Rewards
+
+ - Updated "Indirect Support" text in Brave Rewards panel for unconnected users. ([#40907](https://github.com/brave/brave-browser/issues/40907))
+
+### General
+
+ - Added the ability to edit replies generated by Brave Leo. ([#35343](https://github.com/brave/brave-browser/issues/35343))
+ - Added the ability to modify user prompts on Brave Leo. ([#35342](https://github.com/brave/brave-browser/issues/35342))
+ - Added parallel downloading toggle under "Downloads" settings. ([#38772](https://github.com/brave/brave-browser/issues/38772))
+ - Improved debouncing protections by utilizing both RFC and Chromium URL parsing. ([#39866](https://github.com/brave/brave-browser/issues/39866))
+ - Improved adblocking by continuing to execute ":remove*" filters regardless of "$generichide". ([#39907](https://github.com/brave/brave-browser/issues/39907))
+ - Improved fingerprint farbling across different profiles. ([#38067](https://github.com/brave/brave-browser/issues/38067))
+ - Improved Brave Leo webview for new conversation to not scroll up when onscreen keyboard is opened. ([#40303](https://github.com/brave/brave-browser/issues/40303))
+ - Updated icons and font sizes for Brave Leo. ([#39819](https://github.com/brave/brave-browser/issues/39819))
+ - Updated text under "About Brave Shields" via the shields panel. ([#40279](https://github.com/brave/brave-browser/issues/40279))
+ - Updated Brave VPN paywall modal design. ([#39889](https://github.com/brave/brave-browser/issues/39889))
+ - Fixed a crash that could occur when navigating to the New Tab Page in certain cases. ([#40312](https://github.com/brave/brave-browser/issues/40312))
+ - Fixed cosmetic filtering in cases where some filter rules include invalid CSS. ([#40177](https://github.com/brave/brave-browser/issues/40177))
+ - Fixed an issue preventing safe browsing protection from blocking malicious/dangerous websites. ([#41060](https://github.com/brave/brave-browser/issues/41060))
+ - Upgraded Chromium to 129.0.6668.59. ([#41111](https://github.com/brave/brave-browser/issues/41111)) ([Changelog for 129.0.6668.59](https://chromium.googlesource.com/chromium/src/+log/127.0.6533.138..129.0.6668.59?pretty=fuller&n=1000))
+
+## [1.69.164](https://github.com/brave/brave-browser/releases/tag/v1.69.164)
+
+ - Upgraded Chromium to 128.0.6613.127. ([#40862](https://github.com/brave/brave-browser/issues/40862)) ([Changelog for 128.0.6613.127](https://chromium.googlesource.com/chromium/src/+log/128.0.6613.120..128.0.6613.127?pretty=fuller&n=1000))
+
+## [1.69.160](https://github.com/brave/brave-browser/releases/tag/v1.69.160)
+
+ - Updated model names in Brave Leo models menu. ([#40464](https://github.com/brave/brave-browser/issues/40464))
+ - Fixed crash related to Tab Group UI which occurred in certain cases. ([#40673](https://github.com/brave/brave-browser/issues/40673))
+ - Upgraded Chromium to 128.0.6613.114. ([#40738](https://github.com/brave/brave-browser/issues/40738)) ([Changelog for 128.0.6613.114](https://chromium.googlesource.com/chromium/src/+log/128.0.6613.85..128.0.6613.114?pretty=fuller&n=1000))
+
+## [1.69.153](https://github.com/brave/brave-browser/releases/tag/v1.69.153)
+
+### Web3
+
+ - Added support for Solana Priority Fees. ([#35866](https://github.com/brave/brave-browser/issues/35866))
+ - Added new touch ID screen to wallet onboarding flow. ([#38987](https://github.com/brave/brave-browser/issues/38987))
+ - Added new confirmation screen to wallet onboarding flow. ([#39348](https://github.com/brave/brave-browser/issues/39348))
+ - Removed deprecated Goerli Network from default network list. ([#37369](https://github.com/brave/brave-browser/issues/37369))
+ - Fixed text padding to avoid text overlap on the onboarding screen. ([#38912](https://github.com/brave/brave-browser/issues/38912))
+
+### General
+
+ - Enabled "search suggestions" by default for "Standard Tab" when Brave Search is set as a default search engine. ([#31607](https://github.com/brave/brave-browser/issues/31607))
+ - Improved adblocking by supporting ":remove", ":remove-attr", and ":remove-class" adblock filter syntax. ([#33881](https://github.com/brave/brave-browser/issues/33881))
+ - Updated adblocking to apply generic "$removeparam" rules to document, subdocument, or xhr requests by default. ([#38753](https://github.com/brave/brave-browser/issues/38753))
+ - Removed known tracking parameter "_branch_match_id" and "_branch_referrer" from URLs. ([#39575](https://github.com/brave/brave-browser/issues/39575))
+ - Upgraded Chromium to 128.0.6613.85. ([#40586](https://github.com/brave/brave-browser/issues/40586)) ([Changelog for 128.0.6613.85](https://chromium.googlesource.com/chromium/src/+log/127.0.6533.120..128.0.6613.85?pretty=fuller&n=1000))
+
+## [1.68.137](https://github.com/brave/brave-browser/releases/tag/v1.68.137)
+
+ - Upgraded Chromium to 127.0.6533.100. ([#40314](https://github.com/brave/brave-browser/issues/40314)) ([Changelog for 127.0.6533.100](https://chromium.googlesource.com/chromium/src/+log/127.0.6533.88..127.0.6533.100?pretty=fuller&n=1000))
+
+## [1.68.134](https://github.com/brave/brave-browser/releases/tag/v1.68.134)
+
+ - Upgraded Chromium to 127.0.6533.88. ([#40120](https://github.com/brave/brave-browser/issues/40120)) ([Changelog for 127.0.6533.88](https://chromium.googlesource.com/chromium/src/+log/127.0.6533.73..127.0.6533.88?pretty=fuller&n=1000))
+
+## [1.68.133](https://github.com/brave/brave-browser/releases/tag/v1.68.133)
+
+ - Fixed billing client issue for new subscription users who could not purchase VPN and Leo via Google Play Store. ([#40078](https://github.com/brave/brave-browser/issues/40078))
+
+## [1.68.128](https://github.com/brave/brave-browser/releases/tag/v1.68.128)
+
+### Web3
+
+ - Added the ability to import BTC accounts (BIP84) into Brave Wallet. ([#38446](https://github.com/brave/brave-browser/issues/38446))
+ - Added support for the Solana Token Extensions, part of the Solana Token-2022 program. ([#36699](https://github.com/brave/brave-browser/issues/36699))
+ - Updated network setting to show/hide all networks similar to Brave Wallet on desktop. ([#37397](https://github.com/brave/brave-browser/issues/37397))
+ - Improved alignment for "Network" name and icon on "Network" selector screen. ([#36253](https://github.com/brave/brave-browser/issues/36253))
+ - Fixed inability to sign-in on "https://tally.xyz". ([#38878](https://github.com/brave/brave-browser/issues/38878))
+
+### General
+
+ - Added Nebula support for P3A. ([#35841](https://github.com/brave/brave-browser/issues/35841))
+ - Added ability to launch Leo via voice search if phrase starts with "Leo...". ([#38089](https://github.com/brave/brave-browser/issues/38089))
+ - Added "Refresh your credentials" button for Leo and VPN if a user has an active subscription purchased on another device. ([#38085](https://github.com/brave/brave-browser/issues/38085))
+ - [Security] Fixed issue where SSL Pinning didn't work in certain cases and the webpage didn't show an SSL error. ([#24453](https://github.com/brave/brave-browser/issues/24453))
+ - Enabled rich version of Brave Search autocomplete suggestions. ([#29997](https://github.com/brave/brave-browser/issues/29997))
+ - Improved Brave Leo conversation UI layout. ([#37792](https://github.com/brave/brave-browser/issues/37792))
+ - Improved component updater to check for updates more often. ([#35164](https://github.com/brave/brave-browser/issues/35164))
+ - Improved text on VPN paywall to highlight discount amount. ([#38239](https://github.com/brave/brave-browser/issues/38239))
+ - Removed default suggested top sites from new tab page for new profiles. ([#39541](https://github.com/brave/brave-browser/issues/39541))
+ - Fixed "HTTPS" URLs being copied as "HTTP" into clipboard from the omnibox share menu. ([#39095](https://github.com/brave/brave-browser/issues/39095))
+ - Upgraded Chromium to 127.0.6533.73. ([#39948](https://github.com/brave/brave-browser/issues/39948)) ([Changelog for 127.0.6533.73](https://chromium.googlesource.com/chromium/src/+log/126.0.6478.186..127.0.6533.73?pretty=fuller&n=1000))
+
+## [1.67.136](https://github.com/brave/brave-browser/releases/tag/v1.67.136)
+
+ - Fixed issue where current active tab position was lost due to a new tab being created when restoring/re-launching Brave. ([#38635](https://github.com/brave/brave-browser/issues/38635))
+ - Upgraded Chromium to 126.0.6478.186. ([#39799](https://github.com/brave/brave-browser/issues/39799)) ([Changelog for 126.0.6478.168](https://chromium.googlesource.com/chromium/src/+log/126.0.6478.126..126.0.6478.186?pretty=fuller&n=1000))
+
+## [1.67.123](https://github.com/brave/brave-browser/releases/tag/v1.67.123)
+
+ - Upgraded Chromium to 126.0.6478.126. ([#39329](https://github.com/brave/brave-browser/issues/39329)) ([Changelog for 126.0.6478.126](https://chromium.googlesource.com/chromium/src/+log/126.0.6478.114..126.0.6478.126?pretty=fuller&n=1000))
+
+## [1.67.119](https://github.com/brave/brave-browser/releases/tag/v1.67.119)
+
+ - Upgraded Chromium to 126.0.6478.114. ([#39138](https://github.com/brave/brave-browser/issues/39138)) ([Changelog for 126.0.6478.114](https://chromium.googlesource.com/chromium/src/+log/126.0.6478.71..126.0.6478.114?pretty=fuller&n=1000))
+
+## [1.67.116](https://github.com/brave/brave-browser/releases/tag/v1.67.116)
+
+### Web3
+
+ - Added small delay in onboarding flow on the Brave Wallet creation screen. ([#37395](https://github.com/brave/brave-browser/issues/37395))
+ - Implemented a new unlock screen for accessing Brave Wallet. ([#37720](https://github.com/brave/brave-browser/issues/37720))
+ - Improved tappable area of the checkbox on Brave Wallet onboarding screen. ([#37499](https://github.com/brave/brave-browser/issues/37499))
+ - Updated "LiFi Transaction" JSON to show string value for "chainID". ([#37930](https://github.com/brave/brave-browser/issues/37930))
+ - Updated Solana transactions to rebroadcast every five seconds. ([#37310](https://github.com/brave/brave-browser/issues/37310))
+ - Removed "Brave Fee" for all "Swap" transactions in Brave Wallet. ([#38566](https://github.com/brave/brave-browser/issues/38566))
+ - Fixed crash on Brave Wallet model when native initialization hasn't completed. ([#38093](https://github.com/brave/brave-browser/issues/38093))
+
+### Rewards
+
+ - Added "Brave Search Ads" toggle to "Manage Brave Ads" on brave://rewards page and updated default display behavior. ([#37695](https://github.com/brave/brave-browser/issues/37695))
+
+### General
+
+ - Added Brave Search support to Brave Leo. ([#37575](https://github.com/brave/brave-browser/issues/37575) & [#38155](https://github.com/brave/brave-browser/issues/38155))
+ - Added markdown rendering to certain Brave Leo responses. ([#35891](https://github.com/brave/brave-browser/issues/35891))
+ - Added ability to use quick actions via "/" under Brave Leo panel. ([#37294](https://github.com/brave/brave-browser/issues/37294))
+ - Added in-app update dialog when Brave is outdated on devices running Android 13 and older. ([#38394](https://github.com/brave/brave-browser/issues/38394))
+ - Added "Update" CTA button in "Content Filtering" section to force-update all adblock components. ([#35270](https://github.com/brave/brave-browser/issues/35270))
+ - Added "Always-on VPN" option in Brave VPN settings. ([#37013](https://github.com/brave/brave-browser/issues/37013))
+ - Added exception to automatically exclude LAN addresses when Brave VPN is enabled to ensure usage of local devices. ([#37019](https://github.com/brave/brave-browser/issues/37019))
+ - Enabled "Background play" audio by default. ([#38869](https://github.com/brave/brave-browser/issues/38869))
+ - Updated Brave Leo model intro and added a tooltip for more details. ([#37825](https://github.com/brave/brave-browser/issues/37825))
+ - Updated Brave Leo CTA button text for non-premium users. ([#38695](https://github.com/brave/brave-browser/issues/38695))
+ - Updated labeling on certain language models listed in Brave Leo. ([#35611](https://github.com/brave/brave-browser/issues/35611))
+ - Updated product header for Brave Leo. ([#36202](https://github.com/brave/brave-browser/issues/36202))
+ - Replaced "Llama 2" with "Llama 3". ([#38071](https://github.com/brave/brave-browser/issues/38071))
+ - Deprecated "Claude Instant" model. ([#37988](https://github.com/brave/brave-browser/issues/37988))
+ - Removed background graphics from Brave Leo onboarding. ([#37344](https://github.com/brave/brave-browser/issues/37344))
+ - Removed known Salesforce Marketing Cloud tracking parameter "et_rid" from URLs. ([#37847](https://github.com/brave/brave-browser/issues/37847))
+ - Removed known Blackbaud tracking parameter "bbeml" from URLs. ([#37971](https://github.com/brave/brave-browser/issues/37971))
+ - Fixed de-AMP to only apply to HTML pages. ([#37406](https://github.com/brave/brave-browser/issues/37406))
+ - Fixed labelling and rate-limit messaging for Brave Leo as well as removed the "Switch to basic model" button from rate-limiting modal. ([#38676](https://github.com/brave/brave-browser/issues/38676))
+ - Fixed "Disable Brave VPN" bottom-sheet modal, which is now fully shown in "Landscape" mode. ([#37431](https://github.com/brave/brave-browser/issues/37431))
+ - Fixed "Liking Brave?" bottom-sheet modal, which is now fully shown in "Landscape" mode. ([#37870](https://github.com/brave/brave-browser/issues/37870))
+ - Fixed crash that occurred when third-party autofill service was enabled on device and a website with fill-in fields was active. ([#37942](https://github.com/brave/brave-browser/issues/37942))
+ - Fixed domain representation in the Brave Shields panel to ensure that long domain name is truncated from the beginning, keeping the end visible. ([#38514](https://github.com/brave/brave-browser/issues/38514))
+ - Fixed main settings menu to ensure that toolbar items are not shown at the top of the main settings menu in certain cases. ([#36396](https://github.com/brave/brave-browser/issues/36396))
+ - Fixed an issue where search engine used in "Private tabs" would revert to a search engine used in "Standard tabs" in certain cases. ([#36758](https://github.com/brave/brave-browser/issues/36758))
+ - Fixed "Tab Swipe" which causes Brave Rewards and Brave Shields button area to retain previous tab theme. ([#37342](https://github.com/brave/brave-browser/issues/37342))
+ - Upgraded Chromium to 126.0.6478.71. ([#39032](https://github.com/brave/brave-browser/issues/39032)) ([Changelog for 126.0.6478.71](https://chromium.googlesource.com/chromium/src/+log/126.0.6478.56..126.0.6478.71?pretty=fuller&n=1000))
+
+## [1.66.120](https://github.com/brave/brave-browser/releases/tag/v1.66.120)
+
+ - Removed "Brave Fee" for all "Swap" transactions in Brave Wallet. ([#38566](https://github.com/brave/brave-browser/issues/38566))
+ - Upgraded Chromium to 125.0.6422.165. ([#38803](https://github.com/brave/brave-browser/issues/38803)) ([Changelog for 125.0.6422.165](https://chromium.googlesource.com/chromium/src/+log/125.0.6422.147..125.0.6422.165?pretty=fuller&n=1000))
+
+## [1.66.118](https://github.com/brave/brave-browser/releases/tag/v1.66.118)
+
+ - Fixed crash when using the "Search" widget. ([#38680](https://github.com/brave/brave-browser/issues/38680))
+ - Fixed VPN receipt appearing empty in certain cases when linking a subscription purchase. ([#37591](https://github.com/brave/brave-browser/issues/37591))
+ - Fixed the issue where "Share/Copy/Edit" tools weren't shown in the URL bar when loading "eTLD" domains. ([#38563](https://github.com/brave/brave-browser/issues/38563))
+ - Upgraded Chromium to 125.0.6422.147. ([#38711](https://github.com/brave/brave-browser/issues/38711)) ([Changelog for 125.0.6422.147](https://chromium.googlesource.com/chromium/src/+log/125.0.6422.112..125.0.6422.147?pretty=fuller&n=1000))
+
+## [1.66.115](https://github.com/brave/brave-browser/releases/tag/v1.66.115)
+
+ - Fixed Leo suggestions not using rounded corners under URL bar. ([#38516](https://github.com/brave/brave-browser/issues/38516))
+ - Fixed "Copy/Edit" icons missing when selecting URL via the URL bar. ([#38507](https://github.com/brave/brave-browser/issues/38507))
+ - Upgraded Chromium to 125.0.6422.112. ([#38528](https://github.com/brave/brave-browser/issues/38528)) ([Changelog for 125.0.6422.112](https://chromium.googlesource.com/chromium/src/+log/125.0.6422.76..125.0.6422.112?pretty=fuller&n=1000))
+
+## [1.66.113](https://github.com/brave/brave-browser/releases/tag/v1.66.113)
+
+ - Fixed "Creating Wallet" screen getting stuck when failing account recovery via Brave Wallet. ([#35297](https://github.com/brave/brave-browser/issues/35297))
+ - Upgraded Chromium to 125.0.6422.76. ([#38465](https://github.com/brave/brave-browser/issues/38465)) ([Changelog for 125.0.6422.76](https://chromium.googlesource.com/chromium/src/+log/125.0.6422.60..125.0.6422.76?pretty=fuller&n=1000))
+
+## [1.66.110](https://github.com/brave/brave-browser/releases/tag/v1.66.110)
+
+### Web3
+
+ - Added Bitcoin/BTC support. ([#32721](https://github.com/brave/brave-browser/issues/32721))
+ - Added network selection during Brave Wallet onboarding. ([#36578](https://github.com/brave/brave-browser/issues/36578))
+
+### General
+
+ - Added "Claude 3 Haiku" (free) and "Claude 3 Sonnet" (premium) models to the Brave Leo model selection list. ([#36802](https://github.com/brave/brave-browser/issues/36802))
+ - Added ability to block YouTube Shorts via "Block YouTube Shorts" under "Media" settings. ([#36465](https://github.com/brave/brave-browser/issues/36465))
+ - Added support for Brave's autofill Service in Chrome, Opera and Edge. ([#36892](https://github.com/brave/brave-browser/issues/36892))
+ - Updated default search engine to Brave Search for new installations in Italy. ([#38028](https://github.com/brave/brave-browser/issues/38028))
+ - Updated VPN purchase model to use dynamic price calculations to calculate discount when selecting annual plan. ([#38154](https://github.com/brave/brave-browser/issues/38154))
+ - Disabled multi-window support by default. ([#35106](https://github.com/brave/brave-browser/issues/35106))
+ - Disabled Isolated Web Apps (IWAs). ([#36515](https://github.com/brave/brave-browser/issues/36515))
+ - Fixed Brave Leo suggestions incorrectly working when "Show autocomplete in address bar" has been disabled. ([#36542](https://github.com/brave/brave-browser/issues/36542))
+ - Fixed cross-engine exceptions in "Standard" ad-blocking mode. ([#36940](https://github.com/brave/brave-browser/issues/36940))
+ - Fixed Brave's autofill service incorrectly filling in URLs via omnibox in other browsers. ([#36890](https://github.com/brave/brave-browser/issues/36890))
+ - Upgraded Chromium to 125.0.6422.60. ([#38350](https://github.com/brave/brave-browser/issues/38350)) ([Changelog for 125.0.6422.60](https://chromium.googlesource.com/chromium/src/+log/124.0.6367.208..125.0.6422.60?pretty=fuller&n=1000))
+
+## [1.65.133](https://github.com/brave/brave-browser/releases/tag/v1.65.133)
+
+ - Upgraded Chromium to 124.0.6367.208. ([#38287](https://github.com/brave/brave-browser/issues/38287)) ([Changelog for 124.0.6367.208](https://chromium.googlesource.com/chromium/src/+log/124.0.6367.202..124.0.6367.208?pretty=fuller&n=1000))
+
+## [1.65.132](https://github.com/brave/brave-browser/releases/tag/v1.65.132)
+
+ - Fixed new installs failing on devices with Google Play Service disabled. ([#37855](https://github.com/brave/brave-browser/issues/37855))
+ - Fixed crash in autofill in certain cases. ([#37995](https://github.com/brave/brave-browser/issues/37995))
+ - Upgraded Chromium to 124.0.6367.202. ([#38205](https://github.com/brave/brave-browser/issues/38205)) ([Changelog for 124.0.6367.202](https://chromium.googlesource.com/chromium/src/+log/124.0.6367.159..124.0.6367.202?pretty=fuller&n=1000))
+
+## [1.65.126](https://github.com/brave/brave-browser/releases/tag/v1.65.126)
+
+ - Upgraded Chromium to 124.0.6367.118. ([#37965](https://github.com/brave/brave-browser/issues/37965)) ([Changelog for 124.0.6367.118](https://chromium.googlesource.com/chromium/src/+log/124.0.6367.91..124.0.6367.118?pretty=fuller&n=1000))
+
+## [1.65.122](https://github.com/brave/brave-browser/releases/tag/v1.65.122)
+
+ - Fixed incorrect/stale balances being displayed under the "Send/Swap" selection screen. ([#37609](https://github.com/brave/brave-browser/issues/37609))
+ - Fixed account balance not being updated on successful "Swap" confirmation or page reload due to balance being fetched from the persisted registry which isn't live. ([#37610](https://github.com/brave/brave-browser/issues/37610))
+ - Upgraded Chromium to 124.0.6367.82. ([#37814](https://github.com/brave/brave-browser/issues/37814)) ([Changelog for 124.0.6367.82](https://chromium.googlesource.com/chromium/src/+log/124.0.6367.60..124.0.6367.82?pretty=fuller&n=1000))
+
+## [1.65.114](https://github.com/brave/brave-browser/releases/tag/v1.65.114)
+
+### Web3
+
+ - Added new password creation screen when accessing Brave Wallet for the first time. ([#36552](https://github.com/brave/brave-browser/issues/36552))
+ - Updated "Backup" wallet from WebUI to native. ([#35928](https://github.com/brave/brave-browser/issues/35928))
+ - Fixed issue where the "Review send" button was not enabled on the "Send" page for NFT in certain cases. ([#36605](https://github.com/brave/brave-browser/issues/36605))
+ - Fixed all available Solana accounts not being listed under the "Connection" panel. ([#35951](https://github.com/brave/brave-browser/issues/35951))
+
+### Rewards
+
+ - Fixed "Brave Rewards nay not work..." notification being displayed for users with rewards disabled. ([#35809](https://github.com/brave/brave-browser/issues/35809))
+
+### General
+
+ - Added GitHub pull request compatibility with Brave Leo. ([#35492](https://github.com/brave/brave-browser/issues/35492))
+ - Added Autofill Service for Addresses. ([#36226](https://github.com/brave/brave-browser/issues/36226))
+ - Added ability to disable "Autofill in private tabs" via "Settings". ([#32096](https://github.com/brave/brave-browser/issues/32096))
+ - [Security] Fixed website title of last closed private tab being displayed as reported on HackerOne by thesur. ([#37343](https://github.com/brave/brave-browser/issues/37343))
+ - Removed Brave user-agent being sent with Chromecast SSDP packets. ([#18017](https://github.com/brave/brave-browser/issues/18017))
+ - Removed old adblock components after new ones are installed. ([#36310](https://github.com/brave/brave-browser/issues/36310))
+ - Fixed address bar not being displayed/visible in certain cases. ([#36272](https://github.com/brave/brave-browser/issues/36272))
+ - Fixed Private History page still using Chrome assets/images. ([#36530](https://github.com/brave/brave-browser/issues/36530))
+ - Upgraded Chromium to 124.0.6367.60. ([#37552](https://github.com/brave/brave-browser/issues/37552)) ([Changelog for 124.0.6367.60](https://chromium.googlesource.com/chromium/src/+log/123.0.6312.122..124.0.6367.60?pretty=fuller&n=1000))
+
+## [1.64.122](https://github.com/brave/brave-browser/releases/tag/v1.64.122)
+
+ - Fixed an issue where Brave wouldn't change to another language on "Android 13" and above. ([#28822](https://github.com/brave/brave-browser/issues/28822))
+ - Upgraded Chromium to 123.0.6312.122. ([#37474](https://github.com/brave/brave-browser/issues/37474)) ([Changelog for 123.0.6312.122](https://chromium.googlesource.com/chromium/src/+log/123.0.6312.105..123.0.6312.122?pretty=fuller&n=1000))
+
+## [1.64.116](https://github.com/brave/brave-browser/releases/tag/v1.64.116)
+
+ - Disabled Brave Leo when "Block Scripts" has been enabled globally via "Brave Shields & privacy" settings. ([#37146](https://github.com/brave/brave-browser/issues/37146))
+ - Upgraded Chromium to 123.0.6312.105. ([#37268](https://github.com/brave/brave-browser/issues/37268)) ([Changelog for 123.0.6312.105](https://chromium.googlesource.com/chromium/src/+log/123.0.6312.86..123.0.6312.105?pretty=fuller&n=1000))
+
+## [1.64.113](https://github.com/brave/brave-browser/releases/tag/v1.64.113)
+
+ - Added voice support for Brave Leo. ([#37053](https://github.com/brave/brave-browser/issues/37053))
+ - Improved Brave Leo handling for YouTube video transcripts. ([#34945](https://github.com/brave/brave-browser/issues/34945))
+ - Fixed payout status banner not being displayed under rewards panel for self-custody. ([#36773](https://github.com/brave/brave-browser/issues/36773))
+ - Upgraded Chromium to 123.0.6312.86. ([#37097](https://github.com/brave/brave-browser/issues/37097)) ([Changelog for 123.0.6312.86](https://chromium.googlesource.com/chromium/src/+log/123.0.6312.58..123.0.6312.86?pretty=fuller&n=1000))
+
+## [1.64.109](https://github.com/brave/brave-browser/releases/tag/v1.64.109)
+
+### Web3
+
+ - Added support for SNS V2 Records. ([#35958](https://github.com/brave/brave-browser/issues/35958))
+ - Implemented new Brave Wallet onboarding. ([#35713](https://github.com/brave/brave-browser/issues/35713)) & ([#35488](https://github.com/brave/brave-browser/issues/35488))
+
+### Rewards
+
+ - Added self-custody option for Brave Rewards. ([#35334](https://github.com/brave/brave-browser/issues/35334))
+ - Updated generic linking error text. ([#33955](https://github.com/brave/brave-browser/issues/33955))
+
+### General
+
+ - Improved Chromium storage partitioning by making it compatible with Brave's ephemeral storage implementation. ([#26165](https://github.com/brave/brave-browser/issues/26165))
+ - Improved brave://adblock by redirecting to "Custom Filters" via settings. ([#35269](https://github.com/brave/brave-browser/issues/35269))
+ - Renamed "Data Preferences" button under Sync settings to "Sync Options". ([#13530](https://github.com/brave/brave-browser/issues/13530))
+ - Fixed Brave Leo so that if a content node isn't found the root content node is used. ([#35371](https://github.com/brave/brave-browser/issues/35371))
+ - Fixed invalid URLs being used when reporting websites via "Report a broken site" under the shields panel. ([#35244](https://github.com/brave/brave-browser/issues/35244))
+ - Upgraded Chromium to 123.0.6312.58. ([#36938](https://github.com/brave/brave-browser/issues/36938)) ([Changelog for 123.0.6312.58](https://chromium.googlesource.com/chromium/src/+log/122.0.6261.128..123.0.6312.58?pretty=fuller&n=1000))
+
+## [1.63.174](https://github.com/brave/brave-browser/releases/tag/v1.63.174)
+
+ - Upgraded Chromium to 122.0.6261.128. ([#36732](https://github.com/brave/brave-browser/issues/36732)) ([Changelog for 122.0.6261.128](https://chromium.googlesource.com/chromium/src/+log/122.0.6261.111..122.0.6261.128?pretty=fuller&n=1000))
+
+## [1.63.169](https://github.com/brave/brave-browser/releases/tag/v1.63.169)
+
+### Web3
+
+ - Implemented autofill of token details when adding EVM tokens. ([#31062](https://github.com/brave/brave-browser/issues/31062))
+
+### General
+
+ - Fixed inability to login to SharePoint by enabling Cookie Partitioning. ([#36450](https://github.com/brave/brave-browser/issues/36450))
+ - Fixed Leo "Submit" button overlapping text when using RTL locales. ([#36413](https://github.com/brave/brave-browser/issues/36413))
+ - Upgraded Chromium to 122.0.6261.111. ([#36556](https://github.com/brave/brave-browser/issues/36556)) ([Changelog for 122.0.6261.111](https://chromium.googlesource.com/chromium/src/+log/122.0.6261.94..122.0.6261.111?pretty=fuller&n=1000))
+
+## [1.63.165](https://github.com/brave/brave-browser/releases/tag/v1.63.165)
+
+ - Added Brave Leo - AI for questions and answers leveraging page context. ([#36303](https://github.com/brave/brave-browser/issues/36303))
+ - Upgraded Chromium to 122.0.6261.94. ([#36404](https://github.com/brave/brave-browser/issues/36404)) ([Changelog for 122.0.6261.94](https://chromium.googlesource.com/chromium/src/+log/122.0.6261.69..122.0.6261.94?pretty=fuller&n=1000))
+
+## [1.63.161](https://github.com/brave/brave-browser/releases/tag/v1.63.161)
+
+### Web3
+
+ - Added new configuration options for default "Ethereum wallet" and "Solana wallet" settings. ([#18325](https://github.com/brave/brave-browser/issues/18325))
+ - Added chain validation to "wallet_addEthereumChain" API call and chainID validation to the network settings page. ([#20934](https://github.com/brave/brave-browser/issues/20934))
+ - Updated certain areas of the wallet from native UI to Web UI. ([#34386](https://github.com/brave/brave-browser/issues/34386))
+ - Updated "Swap" UI to be similar to "Send" UI. ([#28720](https://github.com/brave/brave-browser/issues/28720))
+ - Fixed crash when adding Brave Rewards account while the wallet is currently in a locked state. ([#36018](https://github.com/brave/brave-browser/issues/36018))
+
+### Rewards
+
+ - Removed "?" from the BAT icon under the rewards panel. ([#33922](https://github.com/brave/brave-browser/issues/33922))
+
+### General
+
+ - Added VPN region selection into main settings menu. ([#27014](https://github.com/brave/brave-browser/issues/27014))
+ - Improved support for "removeparam" in standard mode. ([#35141](https://github.com/brave/brave-browser/issues/35141))
+ - Updated default VPN icon. ([#32595](https://github.com/brave/brave-browser/issues/32595)
+ - Updated VPN summary under paywall modal. ([#34250](https://github.com/brave/brave-browser/issues/34250)
+ - Removed known YouTube tracking parameter "si" from URLs. ([#34719](https://github.com/brave/brave-browser/issues/34719))
+ - Removed known Instagram tracking parameter "igsh" from URLs. ([#35094](https://github.com/brave/brave-browser/issues/35094))
+ - Fixed scriptlet arguments with trailing escaped commas not being parsed correctly. ([#36223](https://github.com/brave/brave-browser/issues/36223))
+ - Fixed crash when changing default search engine for "Private Tab" in certain cases. ([#34826](https://github.com/brave/brave-browser/issues/34826))
+ - Fixed "Connecting to your server. Should only take a moment..." messaging being displayed infinitely when VPN subscription has expired. ([#34738](https://github.com/brave/brave-browser/issues/34738)) 
+ - Fixed crash when playing media in a loop within the Playlist. ([#30682](https://github.com/brave/brave-browser/issues/30682))
+ - Upgraded Chromium to 122.0.6261.57. ([#36242](https://github.com/brave/brave-browser/issues/36242)) ([Changelog for 122.0.6261.57](https://chromium.googlesource.com/chromium/src/+log/121.0.6167.184..122.0.6261.57?pretty=fuller&n=1000))
+
+## [1.62.165](https://github.com/brave/brave-browser/releases/tag/v1.62.165)
+
+ - Upgraded Chromium to 121.0.6167.184. ([#36023](https://github.com/brave/brave-browser/issues/36023)) ([Changelog for 121.0.6167.184](https://chromium.googlesource.com/chromium/src/+log/121.0.6167.164..121.0.6167.184?pretty=fuller&n=1000))
+
+## [1.62.162](https://github.com/brave/brave-browser/releases/tag/v1.62.162)
+
+ - Upgraded Chromium to 121.0.6167.164. ([#35844](https://github.com/brave/brave-browser/issues/35844)) ([Changelog for 121.0.6167.164](https://chromium.googlesource.com/chromium/src/+log/121.0.6167.139..121.0.6167.164?pretty=fuller&n=1000))
+
+## [1.62.156](https://github.com/brave/brave-browser/releases/tag/v1.62.156)
+
+ - Fixed sync crash when forcing device polling in certain cases. ([#35554](https://github.com/brave/brave-browser/issues/35554))
+ - Upgraded Chromium to 121.0.6167.139. ([#35704](https://github.com/brave/brave-browser/issues/35704)) ([Changelog for 121.0.6167.139](https://chromium.googlesource.com/chromium/src/+log/121.0.6167.85..121.0.6167.139?pretty=fuller&n=1000))
+
+## [1.62.152](https://github.com/brave/brave-browser/releases/tag/v1.62.152)
+
+### Web3
+
+ - [Security] Updated Brave Wallet password policy. ([#25780](https://github.com/brave/brave-browser/issues/25780))
+ - Updated wallet account blockies design. ([#34482](https://github.com/brave/brave-browser/issues/34482))
+ - Migrated Solana Swaps to use Jupiter Swap API v6. ([#35091](https://github.com/brave/brave-browser/issues/35091))
+ - Removed loading indicator when asset discovery is not being run. ([#30921](https://github.com/brave/brave-browser/issues/30921))
+
+### General
+ 
+ - Added the ability to pause/disable VPN tunnelling for a desired time frame. ([#34445](https://github.com/brave/brave-browser/issues/34445))
+ - [Security] Force the referrer to always be "no-referrer" while in Speedreader mode as reported on HackerOne by nishimunea. ([#35095](https://github.com/brave/brave-browser/issues/35095))
+ - Updated farbling protections to only farble a subset of user installed fonts. ([#34043](https://github.com/brave/brave-browser/issues/34043))
+ - Updated "Private Tab" re-authentication UI. ([#29688](https://github.com/brave/brave-browser/issues/29688))
+ - Updated various "Setting" menus to improve usability. ([#33981](https://github.com/brave/brave-browser/issues/33981))
+ - Removed HTTPS Everywhere. ([#28433](https://github.com/brave/brave-browser/issues/28433))
+ - Removed aggressive fingerprinting mode (being rolled out in phases using Griffin). ([#31229](https://github.com/brave/brave-browser/issues/31229))
+ - Removed known tracking parameter "_kx" from URLs. ([#34578](https://github.com/brave/brave-browser/issues/34578))
+ - Removed known tracking parameter "irclickid" from URLs. ([#33952](https://github.com/brave/brave-browser/issues/33952))
+ - Removed several known Yandex tracking parameters from URLs. ([#33216](https://github.com/brave/brave-browser/issues/33216))
+ - Removed several known Facebook tracking parameters from URLs. ([#33984](https://github.com/brave/brave-browser/issues/33984))
+ - Moved both "Block YouTube recommended content" and "Block YouTube distracting elements" into "Media" under "Settings". ([#34420](https://github.com/brave/brave-browser/issues/34420))
+ - Upgraded Chromium to 121.0.6167.101. ([#35530](https://github.com/brave/brave-browser/issues/35530)) ([Changelog for 121.0.6167.101](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.234..121.0.6167.101?pretty=fuller&n=1000))
+
+## [1.61.120](https://github.com/brave/brave-browser/releases/tag/v1.61.120)
+
+ - Upgraded Chromium to 120.0.6099.234. ([#35345](https://github.com/brave/brave-browser/issues/35345)) ([Changelog for 120.0.6099.234](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.217..120.0.6099.234?pretty=fuller&n=1000))
+
+## [1.61.116](https://github.com/brave/brave-browser/releases/tag/v1.61.116)
+
+ - Upgraded Chromium to 120.0.6099.217. ([#35219](https://github.com/brave/brave-browser/issues/35219)) ([Changelog for 120.0.6099.217](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.199..120.0.6099.217?pretty=fuller&n=1000))
+
+## [1.61.114](https://github.com/brave/brave-browser/releases/tag/v1.61.114)
+
+ - Upgraded Chromium to 120.0.6099.199. ([#35108](https://github.com/brave/brave-browser/issues/35108)) ([Changelog for 120.0.6099.199](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.144..120.0.6099.199?pretty=fuller&n=1000))
+
+## [1.61.109](https://github.com/brave/brave-browser/releases/tag/v1.61.109)
+
+ - Upgraded Chromium to 120.0.6099.144. ([#34988](https://github.com/brave/brave-browser/issues/34988)) ([Changelog for 120.0.6099.144](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.115..120.0.6099.144?pretty=fuller&n=1000))
+
+## [1.61.104](https://github.com/brave/brave-browser/releases/tag/v1.61.104)
+
+ - Fixed "Signature verification error" being incorrectly displayed in Brave Wallet with the signTransaction method. ([#34842](https://github.com/brave/brave-browser/issues/34842))
+ - Upgraded Chromium to 120.0.6099.115. ([#34856](https://github.com/brave/brave-browser/issues/34856)) ([Changelog for 120.0.6099.115](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.71..120.0.6099.115?pretty=fuller&n=1000))
+
+## [1.61.100](https://github.com/brave/brave-browser/releases/tag/v1.61.100)
+
+### Web3
+
+ - Improved dark mode within Brave Wallet. ([#33439](https://github.com/brave/brave-browser/issues/33439))
+
+### Rewards
+
+ - Redesigned UI for the contribution banner. ([#30371](https://github.com/brave/brave-browser/issues/30371))
+ - Implemented new design for account provider selection screen. ([#33258](https://github.com/brave/brave-browser/issues/33258))
+
+### General
+
+ - Added save path to the bookmark "Exported successfully" dialog. ([#33171](https://github.com/brave/brave-browser/issues/33171))
+ - [Security] Fixed crash when incorrectly handling reward navigation redirects as reported on HackerOne by 0xc4gr1. ([#32498](https://github.com/brave/brave-browser/issues/32498))
+ - Disabled VPN "Contact Technical Support" for non-subscribed users. ([#34724](https://github.com/brave/brave-browser/issues/34724))
+ - Fixed website failing to load on certain Motorola Moto devices (was rolled out using Griffin starting at 100%). ([#33941](https://github.com/brave/brave-browser/issues/33941))
+ - Fixed Brave News onboarding modal appearing via NTP for unsupported regions. ([#33267](https://github.com/brave/brave-browser/issues/33267))
+ - Fixed "Add" button under "Custom filter list" not being disabled when "Enter filter list URL here" text field is empty. ([#33178](https://github.com/brave/brave-browser/issues/33178))
+ - Upgraded Chromium to 120.0.6099.62. ([#34723](https://github.com/brave/brave-browser/issues/34723)) ([Changelog for 120.0.6099.62](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.199..120.0.6099.62?pretty=fuller&n=1000))
+
+## [1.60.125](https://github.com/brave/brave-browser/releases/tag/v1.60.125)
+
+ - Added support for quoted scriptlet arguments. ([#34170](https://github.com/brave/brave-browser/issues/34170))
+ - Upgraded Chromium to 119.0.6045.199. ([#34574](https://github.com/brave/brave-browser/issues/34574)) ([Changelog for 119.0.6045.199](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.163..119.0.6045.199?pretty=fuller&n=1000))
+
+## [1.60.118](https://github.com/brave/brave-browser/releases/tag/v1.60.118)
+
+ - Upgraded Chromium to 119.0.6045.163. ([#34331](https://github.com/brave/brave-browser/issues/34331)) ([Changelog for 119.0.6045.163](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.124..119.0.6045.163?pretty=fuller&n=1000))
+
+## [1.60.116](https://github.com/brave/brave-browser/releases/tag/v1.60.116)
+
+ - Added a first-party exception list to the correct adblock engine. ([#34081](https://github.com/brave/brave-browser/issues/34081))
+ - Upgraded Chromium to 119.0.6045.134. ([#34209](https://github.com/brave/brave-browser/issues/34209)) ([Changelog for 119.0.6045.134](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.124..119.0.6045.134?pretty=fuller&n=1000))
+
+## [1.60.110](https://github.com/brave/brave-browser/releases/tag/v1.60.110)
+
+### Web3
+
+ - Updated Brave Wallet v2 screens for SIWE support. ([#32863](https://github.com/brave/brave-browser/issues/32863)), ([#33254](https://github.com/brave/brave-browser/issues/33254))
+ - Improved performance of "Network" filter dropdown. ([#33004](https://github.com/brave/brave-browser/issues/33004))
+ - Fixed webview crash when selecting tokens using the "Deposit" screen. ([#33966](https://github.com/brave/brave-browser/issues/33966))
+
+### Rewards
+
+ - Added auto-select of target country during the rewards onboarding via the geolocation declaration dropdown. ([#29785](https://github.com/brave/brave-browser/issues/29785))
+ - Fixed multiple default regions being selected during rewards onboarding via the geolocation declaration dropdown. ([#32273](https://github.com/brave/brave-browser/issues/32273))
+
+### General
+
+ - Added Widevine support. ([#20241](https://github.com/brave/brave-browser/issues/20241))
+ - Added support for "#@#+js()" syntax for blanket scriptlet exception. ([#33766](https://github.com/brave/brave-browser/issues/33766))
+ - Enabled History datatype for Brave Sync. ([#32876](https://github.com/brave/brave-browser/issues/32876))
+ - Updated New Tab Page Sponsored Image counter to reset every 24 hours. ([#31551](https://github.com/brave/brave-browser/issues/31551))
+ - Updated display frequency for New Tab Page Sponsored Image. ([#33228](https://github.com/brave/brave-browser/issues/33228))
+ - Updated Brave News to only download the page's linked alternate feeds when the UI list is opened. ([#33246](https://github.com/brave/brave-browser/issues/33246))
+ - Removed known tracking parameter "_gl" from URLs. ([#33188](https://github.com/brave/brave-browser/issues/33188))
+ - Removed known tracking parameters "at_recipient_id" and "at_recipient_list" from URLs. ([#32488](https://github.com/brave/brave-browser/issues/32488))
+ - Removed known tracking parameter "unicorn_click_id" from URLs. ([#33172](https://github.com/brave/brave-browser/issues/33172))
+ - Fixed crash while viewing Privacy Hub in certain cases. ([#32944](https://github.com/brave/brave-browser/issues/32944))
+ - Upgraded Chromium to 119.0.6045.105. ([#34024](https://github.com/brave/brave-browser/issues/34024)) ([Changelog for 119.0.6045.105](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.117..119.0.6045.105?pretty=fuller&n=1000))
+
+## [1.59.124](https://github.com/brave/brave-browser/releases/tag/v1.59.124)
+
+ - Updated user shield reports to include the "origin" + "path" to improve webcompat. ([#32640](https://github.com/brave/brave-browser/issues/32640))
+ - Brave Ad Block Resources Library now updates via Component Updater on a more frequent basis, to always have most recent Ad Block lists. ([#32274](https://github.com/brave/brave-browser/issues/32274))
+ - Upgraded Chromium to 118.0.5993.117. ([#33893](https://github.com/brave/brave-browser/issues/33893)) ([Changelog for 118.0.5993.117](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.96..118.0.5993.117?pretty=fuller&n=1000))
+
+## [1.59.120](https://github.com/brave/brave-browser/releases/tag/v1.59.120)
+
+ - Fixed "Block Cookies" changes under the "Brave Shields & privacy" settings not being saved. ([#30155](https://github.com/brave/brave-browser/issues/30155))
+ - Fixed crash when viewing the New Tab Page in certain cases. ([#33385](https://github.com/brave/brave-browser/issues/33385))
+ - Upgraded Chromium to 118.0.5993.88. ([#33694](https://github.com/brave/brave-browser/issues/33694)) ([Changelog for 118.0.5993.88](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.70..118.0.5993.88?pretty=fuller&n=1000))
+
+## [1.59.117](https://github.com/brave/brave-browser/releases/tag/v1.59.117)
+
+### Web3
+
+ - Redesigned the main Brave Wallet layout. ([#32197](https://github.com/brave/brave-browser/issues/32197)) 
+ - Redesigned wallet navigation and combined both "Assets" & "NTFs" into a single section. ([#32411](https://github.com/brave/brave-browser/issues/32411)) 
+ - Redesigned the "Portfolio" view and added option to show/hide NFTs. ([#32545](https://github.com/brave/brave-browser/issues/32545)) 
+ - Added ability to select multiple networks under the "Networks" selection screen for both the "Portfolio" and "NFT" tabs. ([#32644](https://github.com/brave/brave-browser/issues/32644)) 
+ - Added method to return "Swap" protocol fees. ([#32464](https://github.com/brave/brave-browser/issues/32464))
+ - Added "Help Centre" link under both the wallet settings and panel settings. ([#27270](https://github.com/brave/brave-browser/issues/27270))
+ - Improved wallet performance by optimizing the onboarding flow. ([#32256](https://github.com/brave/brave-browser/issues/32256))
+ - Fixed NFTs still appearing as visible when marked as invisible via "Edit visible NTFs" settings. ([#31915](https://github.com/brave/brave-browser/issues/31915))
+ - Fixed wallet header not being displayed. ([#32222](https://github.com/brave/brave-browser/issues/32222))
+ - Fixed crash when downloading wallet data on a slower connection in certain cases. ([#33386](https://github.com/brave/brave-browser/issues/33386))
+
+### Rewards
+
+ - Updated "Estimated earnings" to display "Earnings so far". ([#32653](https://github.com/brave/brave-browser/issues/32653))
+ - Fixed rewards panel and brave://rewards using different balance values dueto using different rounding algorithm. ([#28258](https://github.com/brave/brave-browser/issues/28258))
+
+### General
+
+ - [Security] Updated which origins and URLs trigger debouncing and request-OTR protections as reported on HackerOne by nishimunea. ([#32230](https://github.com/brave/brave-browser/issues/32230))
+ - [Security] Fixed crash when loading brave://optimization-guide-internals as reported on HackerOne by jaguilera. ([#31648](https://github.com/brave/brave-browser/issues/31648))
+ - Moved both content filtering and "add custom filter list" from brave://adblock into "Brave Shields & privacy" settings. ([#26587](https://github.com/brave/brave-browser/issues/26587)), ([#30174](https://github.com/brave/brave-browser/issues/30174))
+ - Removed the cookie content modal. ([#33151](https://github.com/brave/brave-browser/issues/33151))
+ - Fixed crash when adding scriptlet injection filters with too many arguments. ([#32916](https://github.com/brave/brave-browser/issues/32916))
+ - Fixed context menu for Brave News articles not correctly being displayed while in landscape mode. ([#31935](https://github.com/brave/brave-browser/issues/31935))
+ - Upgraded Chromium to 118.0.5993.70. ([#33556](https://github.com/brave/brave-browser/issues/33556)) ([Changelog for 118.0.5993.70](https://chromium.googlesource.com/chromium/src/+log/117.0.5938.153..118.0.5993.70?pretty=fuller&n=1000))
+
+## [1.58.137](https://github.com/brave/brave-browser/releases/tag/v1.58.137)
+
+ - Upgraded Chromium to 117.0.5938.153. ([#33391](https://github.com/brave/brave-browser/issues/33391)) ([Changelog for 117.0.5938.153](https://chromium.googlesource.com/chromium/src/+log/117.0.5938.140..117.0.5938.153?pretty=fuller&n=1000))
+
+## [1.58.135](https://github.com/brave/brave-browser/releases/tag/v1.58.135)
+
+ - Fixed crash when dismissing Brave VPN dialog in certain cases. ([#33257](https://github.com/brave/brave-browser/issues/33257))
+ - Fixed crash when checking if device supports Brave VPN in certain cases. ([#33235](https://github.com/brave/brave-browser/issues/33235))
+ - Upgraded Chromium to 117.0.5938.140. ([#33282](https://github.com/brave/brave-browser/issues/33282)) ([Changelog for 117.0.5938.140](https://chromium.googlesource.com/chromium/src/+log/117.0.5938.92..117.0.5938.140?pretty=fuller&n=1000))
+
+## [1.58.131](https://github.com/brave/brave-browser/releases/tag/v1.58.131)
+
+ - Upgraded Chromium to 117.0.5938.92. ([#33181](https://github.com/brave/brave-browser/issues/33181)) ([Changelog for 117.0.5938.92](https://chromium.googlesource.com/chromium/src/+log/117.0.5938.88..117.0.5938.92?pretty=fuller&n=1000))
+
+## [1.58.129](https://github.com/brave/brave-browser/releases/tag/v1.58.129)
+
+ - Added brave://flags#brave-global-privacy-control-enabled to opt out of GPC. ([#32231](https://github.com/brave/brave-browser/issues/32231))
+ - Updated SKU credential matching logic for Brave VPN. ([#32924](https://github.com/brave/brave-browser/issues/32924))
+ - Fixed Brave VPN crash due to new Billing SDK. ([#32924](33090://github.com/brave/brave-browser/issues/33090))
+
+## [1.58.125](https://github.com/brave/brave-browser/releases/tag/v1.58.125)
+
+### Web3
+
+ - Added Filecoin to Brave Wallet. ([#30342](https://github.com/brave/brave-browser/issues/30342))
+ - Added support for EIP-6963. ([#30595](https://github.com/brave/brave-browser/issues/30595))
+ - Added network selector in the "Add custom asset" dialog. ([#31188](https://github.com/brave/brave-browser/issues/31188))
+ - Added network selector in the "Edit visible assets" dialog. ([#27093](https://github.com/brave/brave-browser/issues/27093))
+ - Implemented Web UI for "Send" similar to desktop. ([#31260](https://github.com/brave/brave-browser/issues/31260))
+ - Implemented Web UI for "Buy" similar to desktop. ([#31494](https://github.com/brave/brave-browser/issues/31494))
+ - Implemented Web UI for "Deposit" similar to desktop. ([#31495](https://github.com/brave/brave-browser/issues/31495))
+ - [Security] Fixed Brave Wallet pop-up hiding the full screen toast as reported on HackerOne by shadow2639. ([#30113](https://github.com/brave/brave-browser/issues/30113))
+ - Improved the flow for manually adding NFTs. ([#31399](https://github.com/brave/brave-browser/issues/31399))
+ - Updated "Add custom asset" dialog to appear in full screen (also added "Add NFT" screen which appears in full screen). ([#27070](https://github.com/brave/brave-browser/issues/27070))
+ - Moved Solana to the top of the network list. ([#31506](https://github.com/brave/brave-browser/issues/31506))
+ - Removed reference to Brave Rewards within the wallet reset flow. ([#28003](https://github.com/brave/brave-browser/issues/28003))
+ - Fixed transaction confirmation screen being shown when wallet has been auto-locked. ([#31272](https://github.com/brave/brave-browser/issues/31272)), ([#23049](https://github.com/brave/brave-browser/issues/23049))
+ - Fixed wallet balance being displayed on Swap Web UI when wallet is locked. ([#31236](https://github.com/brave/brave-browser/issues/31236))
+ - Fixed manually added assets not being listed in deposit fund screen. ([#31889](https://github.com/brave/brave-browser/issues/31889))
+ - Fixed crash when fetching prices in certain cases. ([#32561](https://github.com/brave/brave-browser/issues/32561))
+ - Fixed crash when editing visible assets in certain cases. ([#31303](https://github.com/brave/brave-browser/issues/31303))
+ - Fixed color for both the "Add custom asset" & "Add NFT" buttons in dark mode. ([#31141](https://github.com/brave/brave-browser/issues/31141))
+
+### Rewards
+
+ - Added ZebPay as new custodial account provider for Brave Rewards (India only). ([#32386](https://github.com/brave/brave-browser/issues/32386))
+ - Implemented new rewards onboarding UI and flow. ([#30309](https://github.com/brave/brave-browser/issues/30309))
+ - Implemented "Manage Brave Ads" on the brave://rewards page. ([#30638](https://github.com/brave/brave-browser/issues/30638))
+ - Fixed Virtual BAT expiry notice being displayed due to an incorrect deadline date being used. ([#28817](https://github.com/brave/brave-browser/issues/28817))
+
+### General
+
+ - Added "Copy clean link" feature. ([#26013](https://github.com/brave/brave-browser/issues/26013))
+ - Added external deep linking for both VPN & Playlist. ([#31148](https://github.com/brave/brave-browser/issues/31148))
+ - Updated "lock" icon to "tune" icon in address bar. ([#32380](https://github.com/brave/brave-browser/issues/32380))
+ - Updated cosmetic filtering to force aggressive blocking on YouTube. ([#30896](https://github.com/brave/brave-browser/issues/30896))
+ - Updated "Learn more" link on the "Lookalike URL" popup. ([#31396](https://github.com/brave/brave-browser/issues/31396))
+ - Removed known tracking parameters "mtm_cid" and "pk_cid" from URLs. ([#31084](https://github.com/brave/brave-browser/issues/31084))
+ - Fixed "Open in new tab" behaving as "Open in new tab in group" and opening new tabs in groups. ([#32853](https://github.com/brave/brave-browser/issues/32853))
+ - Fixed "Open in new tab" being shown under the New Tab Page context menu when toggle is still disabled under "Appearance" settings. ([#32854](https://github.com/brave/brave-browser/issues/32854))
+ - Fixed external links not being opened in the same tab group. ([#32868](https://github.com/brave/brave-browser/issues/32868))
+ - Fixed "Try" Brave VPN modal not being displayed when user meets conditions. ([#29255](https://github.com/brave/brave-browser/issues/29255))
+ - Fixed crash when interacting with VPN settings in certain cases. ([#30656](https://github.com/brave/brave-browser/issues/30656))
+ - Fixed crash when viewing the Brave News feed in certain cases. ([#31195](https://github.com/brave/brave-browser/issues/31195))
+ - Upgraded Chromium to 117.0.5938.62. ([#32945](https://github.com/brave/brave-browser/issues/32945)) ([Changelog for 117.0.5938.62](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.188..117.0.5938.62?pretty=fuller&n=1000))
+
+## [1.57.62](https://github.com/brave/brave-browser/releases/tag/v1.57.62)
+
+ - Upgraded Chromium to 116.0.5845.180. ([#32765](https://github.com/brave/brave-browser/issues/32765)) ([Changelog for 116.0.5845.180](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.163..116.0.5845.180?pretty=fuller&n=1000))
+
+## [1.57.60](https://github.com/brave/brave-browser/releases/tag/v1.57.60)
+
+ - Fixed "Allow app links to open in apps outside of Brave" being disabled by default. ([#32500](https://github.com/brave/brave-browser/issues/32500))
+ - Upgraded Chromium to 116.0.5845.163. ([#32587](https://github.com/brave/brave-browser/issues/32587)) ([Changelog for 116.0.5845.163](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.114..116.0.5845.163?pretty=fuller&n=1000))
+
+## [1.57.53](https://github.com/brave/brave-browser/releases/tag/v1.57.53)
+
+### Web3
+
+ - Added support for "Swap" on Base. ([#32235](https://github.com/brave/brave-browser/issues/32235))
+ - Fixed cancelling unapproved transaction continues to display the pending transaction icon. ([#32199](https://github.com/brave/brave-browser/issues/32199))
+
+### General
+
+ - Fixed crash when interacting with brave://adblock on multiple tabs. ([#14123](https://github.com/brave/brave-browser/issues/14123))
+ - Upgraded Chromium to 116.0.5845.114. ([#32451](https://github.com/brave/brave-browser/issues/32451)) ([Changelog for 116.0.5845.114](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.96..116.0.5845.114?pretty=fuller&n=1000))
+
+## [1.57.50](https://github.com/brave/brave-browser/releases/tag/v1.57.50)
+
+ - Fixed crash when using the bottom toolbar in certain cases. ([#32334](https://github.com/brave/brave-browser/issues/32334))
+ - Fixed "Back" gesture closing/crashing Brave on Android 14. ([#31939](https://github.com/brave/brave-browser/issues/31939))
+
+## [1.57.47](https://github.com/brave/brave-browser/releases/tag/v1.57.47)
+
+### Web3
+
+ - Added Market Tab. ([#30301](https://github.com/brave/brave-browser/issues/30301))
+ - Added asset details within Market Tab. ([#30717](https://github.com/brave/brave-browser/issues/30717))
+ - Added Activity Tab. ([#30608](https://github.com/brave/brave-browser/issues/30608))
+ - Added the ability to connect to DApps by selected network per origin. ([#29635](https://github.com/brave/brave-browser/issues/29635))
+ - Added "Help Center" link next to "Privacy Policy" link on the "Swap" page. ([#30372](https://github.com/brave/brave-browser/issues/30372))
+ - Added full network name in status bar for "Buy", "Send" and "Swap" activity. ([#30341](https://github.com/brave/brave-browser/issues/30341))
+ - Added Ellipsify contract address in status bar for "Buy", "Send" and "Swap" activity. ([#30340](https://github.com/brave/brave-browser/issues/30340))
+ - Improved "Select Network" by displaying test networks in separate group. ([#31815](https://github.com/brave/brave-browser/issues/31815))
+ - Fixed Filecoin EVM Testnet being displayed in secondary networks list. ([#30903](https://github.com/brave/brave-browser/issues/30903))
+ - Fixed changing network momentarily flashes ETH icon. ([#24244](https://github.com/brave/brave-browser/issues/24244))
+
+### Rewards
+
+ - Updated "Estimated Earnings" indicator to display a monthly payout range. ([#30352](https://github.com/brave/brave-browser/issues/30352))
+ - Updated "Brave Rewards" button in native browser settings to redirect to brave://rewards settings page. ([#26902](https://github.com/brave/brave-browser/issues/26902))
+
+### General
+
+ - Added support for "Forget by Default" browsing mode. ([#26465](https://github.com/brave/brave-browser/issues/26465))
+ - Added farbled weights to Accept-Language headers' service workers. ([#29372](https://github.com/brave/brave-browser/issues/29372))
+ - Added ability to Allow/Block universal links from being opened in external apps. ([#25863](https://github.com/brave/brave-browser/issues/25863))
+ - Added support for overriding eTLD+1 exceptions from default adblock filter lists. ([#20426](https://github.com/brave/brave-browser/issues/20426))
+ - Improved text on domain blocking interstitial page. ([#30142](https://github.com/brave/brave-browser/issues/30142))
+ - Improved accessibility by fixing several content labelling issues. ([#30763](https://github.com/brave/brave-browser/issues/30763))
+ - Removed known Hive email trackers "h_sid" and "h_slt" from URLs. ([#30731](https://github.com/brave/brave-browser/issues/30731))
+ - Removed "Restore" button from VPN subscription modal when there's no active subscription available. ([#30244](https://github.com/brave/brave-browser/issues/30244))
+ - Fixed custom filter lists in shields not respecting the "Expires" field. ([#17909](https://github.com/brave/brave-browser/issues/17909))
+ - Upgraded Chromium to 116.0.5845.96. ([#32241](https://github.com/brave/brave-browser/issues/32241)) ([Changelog for 116.0.5845.96](https://chromium.googlesource.com/chromium/src/+log/115.0.5790.171..116.0.5845.96?pretty=fuller&n=1000))
+
+## [1.56.20](https://github.com/brave/brave-browser/releases/tag/v1.56.20)
+
+- Fixed performance issues loading Facebook timeline due to Safe Browsing. ([#31894](https://github.com/brave/brave-browser/issues/31894))
+- Upgraded Chromium to 115.0.5790.171. ([#32040](https://github.com/brave/brave-browser/issues/32040)) ([Changelog for 115.0.5790.171](https://chromium.googlesource.com/chromium/src/+log/115.0.5790.138..115.0.5790.171?pretty=fuller&n=1000))
+
+## [1.56.16](https://github.com/brave/brave-browser/releases/tag/v1.56.16)
+
+- Upgraded Chromium to 115.0.5790.138. ([#31869](https://github.com/brave/brave-browser/issues/31869)) ([Changelog for 115.0.5790.138](https://chromium.googlesource.com/chromium/src/+log/115.0.5790.136..115.0.5790.138?pretty=fuller&n=1000))
+
+## [1.56.13](https://github.com/brave/brave-browser/releases/tag/v1.56.13)
+
+- Fixed incorrect VPN support page being linked via "VPN Support" under "Settings". ([#22950](https://github.com/brave/brave-browser/issues/22950))
+- Upgraded Chromium to 115.0.5790.136. ([#31795](https://github.com/brave/brave-browser/issues/31795)) ([Changelog for 115.0.5790.136](https://chromium.googlesource.com/chromium/src/+log/115.0.5790.98..115.0.5790.136?pretty=fuller&n=1000))
+
+## [1.56.8](https://github.com/brave/brave-browser/releases/tag/v1.56.8)
+
+### Web3
+
+ - Added auto-discovery for Filecoin assets and accounts. ([#28002](https://github.com/brave/brave-browser/issues/28002))
+ - Updated default Brave Wallet auto lock setting to 10 minutes. ([#26362](https://github.com/brave/brave-browser/issues/26362))
+ - Fixed transactions and tx approvals displaying invalid amount and gas values due to using default network. ([#30277](https://github.com/brave/brave-browser/issues/30277))
+
+### Brave Rewards
+
+ - Updated the "Verified Creator" blue checkmark icon. ([#28208](https://github.com/brave/brave-browser/issues/28208))
+ - Redesigned UI for the contribution banner. ([#28149](https://github.com/brave/brave-browser/issues/28149))
+
+### General
+
+ - Added the ability to import/export bookmarks. ([#6378](https://github.com/brave/brave-browser/issues/6378))
+ - Fixed login issue on https://login.live.com. ([#31196](https://github.com/brave/brave-browser/issues/31196))
+ - Fixed issue where cosmetic filtering could not resolve relative URLs as first-party. ([#30062](https://github.com/brave/brave-browser/issues/30062))
+ - Fixed cosmetic filtering unhiding heuristic. ([#30202](https://github.com/brave/brave-browser/issues/30202))
+ - Fixed debounced sites displaying a top-level document blocking interstitial. ([#22437](https://github.com/brave/brave-browser/issues/22437))
+ - Fixed crash when loading brave://settings via the URL bar. ([#31047](https://github.com/brave/brave-browser/issues/31047))
+ - Fixed articles from Brave News always being grouped when using "Open in New Tab" via context menu. ([#28868](https://github.com/brave/brave-browser/issues/28868))
+ - Upgraded Chromium to 115.0.5790.98. ([#31682](https://github.com/brave/brave-browser/issues/31682)) ([Changelog for 115.0.5790.98](https://chromium.googlesource.com/chromium/src/+log/114.0.5735.198..115.0.5790.98?pretty=fuller&n=1000))
+
+## [1.52.130](https://github.com/brave/brave-browser/releases/tag/v1.52.130)
+
+### Web3
+
+ - Updated label for "Reset and clear wallet data" under brave://settings/web3. ([#30005](https://github.com/brave/brave-browser/issues/30005))
+ - Fixed crash when hiding local network assets via "Edit visible assets" when local networks have been disabled. ([#31357](https://github.com/brave/brave-browser/issues/31357))
+
+### General
+
+ - Fixed "Share" button under shields panel not working on certain devices. ([#29856](https://github.com/brave/brave-browser/issues/29856))
+ - Fixed "Brave News has no content to show" modal not appearing under New Tab Page when there's no Brave News sources selected. ([#28349](https://github.com/brave/brave-browser/issues/28349))
+ - Fixed bottom padding for "Top Sites" under New Tab Page. ([#30674](https://github.com/brave/brave-browser/issues/30674))
+
+## [1.52.129](https://github.com/brave/brave-browser/releases/tag/v1.52.129)
+
+ - Upgraded Chromium to 114.0.5735.198. ([#31309](https://github.com/brave/brave-browser/issues/31309)) ([Changelog for 114.0.5735.198](https://chromium.googlesource.com/chromium/src/+log/114.0.5735.133..114.0.5735.198?pretty=fuller&n=1000))
+
+## [1.52.126](https://github.com/brave/brave-browser/releases/tag/v1.52.126)
+
+### Web3
+
+ - Fixed switch network notifications incorrectly being fired when a custom network is selected. ([#30778](https://github.com/brave/brave-browser/issues/30778))
+
+### General
+
+ - Fixed crash which could occur when refreshing the New Tab Page in certain cases. ([#30938](https://github.com/brave/brave-browser/issues/30938))
+ - Fixed crash when the "Notification are disabled" modal is displayed in certain cases. ([#30821](https://github.com/brave/brave-browser/issues/30821))
+ - Upgraded Chromium to 114.0.5735.133. ([#31023](https://github.com/brave/brave-browser/issues/31023)) ([Changelog for 114.0.5735.133](https://chromium.googlesource.com/chromium/src/+log/114.0.5735.110..114.0.5735.133?pretty=fuller&n=1000))
+
+## [1.52.122](https://github.com/brave/brave-browser/releases/tag/v1.52.122)
+
+ - Upgraded Chromium to 114.0.5735.110. ([#30830](https://github.com/brave/brave-browser/issues/30830)) ([Changelog for 114.0.5735.110](https://chromium.googlesource.com/chromium/src/+log/114.0.5735.90..114.0.5735.110?pretty=fuller&n=1000))
+
+## [1.52.120](https://github.com/brave/brave-browser/releases/tag/v1.52.120)
+
+ - Fixed crash when opening Brave from third party apps using "Web Search". ([#30773](https://github.com/brave/brave-browser/issues/30773))
+
+## [1.52.117](https://github.com/brave/brave-browser/releases/tag/v1.52.117)
+
+### Web3
+
+ - Added multi-chain support to show NFTs in grid view. ([#29444](https://github.com/brave/brave-browser/issues/29444))
+ - Added "All network" selection for visible asset dialog. ([#29555](https://github.com/brave/brave-browser/issues/29555))
+ - Implemented versioned transactions for Solana swaps on Jupiter. ([#30296](https://github.com/brave/brave-browser/issues/30296))
+ - Implemented "Enable NFT auto-discovery" popup when navigating to NFT section for the first time. ([#29778](https://github.com/brave/brave-browser/issues/29778)) 
+ - Updated Jupiter Swap API to v4 to add support for versioned transactions. ([#30297](https://github.com/brave/brave-browser/issues/30297))
+ - Updated network selector to show all tokens from the selected network. ([#27333](https://github.com/brave/brave-browser/issues/27333))
+ - Updated token list to only display tokens and not NFTs. ([#29412](https://github.com/brave/brave-browser/issues/29412))
+ - Updated back navigation from block explorer to return to wallet instead of browser. ([#29421](https://github.com/brave/brave-browser/issues/29421))
+ - Updated Buy/Send/Swap buttons to fall back to default network. ([#29695](https://github.com/brave/brave-browser/issues/29695))
+ - Fixed inability to sign transactions on custom EVM networks. ([#30642](https://github.com/brave/brave-browser/issues/30642))
+ - Fixed Solana transactions not being submitted to the chain in certain cases. ([#28645](https://github.com/brave/brave-browser/issues/28645))
+ - Fixed issue with Solana swap failing if "Associated Token Account" does not exist. ([#29733](https://github.com/brave/brave-browser/issues/29733))
+
+### Brave Rewards
+
+ - Updated custodian selection modal. ([#29448](https://github.com/brave/brave-browser/issues/29448))
+
+### General
+
+ - Added "localhost resources" permission prompt. ([#29730](https://github.com/brave/brave-browser/issues/29730))
+ - Added Constellation/STAR encryption for P3A. ([#24338](https://github.com/brave/brave-browser/issues/24338))
+ - Added settings to remove distracting elements from YouTube. ([#27095](https://github.com/brave/brave-browser/issues/27095))
+ - Added drop shadow around the rewards dropdown panel. ([#27257](https://github.com/brave/brave-browser/issues/27257))
+ - [Security] Fixed URLs automatically being resolved when scanned from QR code as reported on HackerOne by roland_hack. ([#29743](https://github.com/brave/brave-browser/issues/29743))
+ - Removed widget onboarding promo. ([#30618](https://github.com/brave/brave-browser/issues/30618))
+ - Removed Google fallback when http://redirector.brave.com is unresponsive. ([#29841](https://github.com/brave/brave-browser/issues/29841))
+ - Fixed "HTTPS Everywhere" not being disabled when enabling "HTTPS By Default" which caused issues with "Don't upgrade connections to HTTPS" in certain cases. ([#30436](https://github.com/brave/brave-browser/issues/30436))
+ - Fixed VPN resetting both split tunnelling and country selection when resetting the configuration. ([#29466](https://github.com/brave/brave-browser/issues/29466))
+ - Fixed crash when loading New Tab Page images in certain cases. ([#29427](https://github.com/brave/brave-browser/issues/29427))
+ - Fixed crash when loading "Top Tiles" after opening a New Tab Page in certain cases. ([#29790](https://github.com/brave/brave-browser/issues/29790)) 
+ - Upgraded Chromium to 114.0.5735.90. ([#30679](https://github.com/brave/brave-browser/issues/30679)) ([Changelog for 114.0.5735.90](https://chromium.googlesource.com/chromium/src/+log/113.0.5672.126..114.0.5735.90?pretty=fuller&n=1000))
+
+## [1.51.121](https://github.com/brave/brave-browser/releases/tag/v1.51.121)
+
+ - Upgraded Chromium to 113.0.5672.163. ([#30511](https://github.com/brave/brave-browser/issues/30511)) ([Changelog for 113.0.5672.163](https://chromium.googlesource.com/chromium/src/+log/113.0.5672.126..113.0.5672.163?pretty=fuller&n=1000))
+
+## [1.51.118](https://github.com/brave/brave-browser/releases/tag/v1.51.118)
+
+ - Implemented per-device WebUSB serial farbling. ([#30041](https://github.com/brave/brave-browser/issues/30041))
+ - Fixed IPFS setting being disabled after being enabled when user leave settings. ([#29647](https://github.com/brave/brave-browser/issues/29647))
+ - Upgraded Chromium to 113.0.5672.126. ([#30386](https://github.com/brave/brave-browser/issues/30386)) ([Changelog for 113.0.5672.126](https://chromium.googlesource.com/chromium/src/+log/113.0.5672.92..113.0.5672.126?pretty=fuller&n=1000))
+
+## [1.51.114](https://github.com/brave/brave-browser/releases/tag/v1.51.114)
+
+### Web3
+
+ - [Security] Fixed Brave Wallet binding issue as reported on HackerOne by nick0ve. ([#30204](https://github.com/brave/brave-browser/issues/30204))
+
+### General
+
+ - Upgraded Chromium to 113.0.5672.92. ([#30209](https://github.com/brave/brave-browser/issues/30209)) ([Changelog for 113.0.5672.92](https://chromium.googlesource.com/chromium/src/+log/113.0.5672.77..113.0.5672.92?pretty=fuller&n=1000))
+
+## [1.51.110](https://github.com/brave/brave-browser/releases/tag/v1.51.110)
+
+### Web3
+
+ - Added NFT tab feature under "Wallet' section. ([#29274](https://github.com/brave/brave-browser/issues/29274))
+ - Added overlapping network icon and network name on asset list items via the "Portfolio" page. ([#29165](https://github.com/brave/brave-browser/issues/29165))
+ - Implemented SVG support for NFT images. ([#27800](https://github.com/brave/brave-browser/issues/27800))
+ - Updated native asset icons for Aurora to use ETH icon. ([#24210](https://github.com/brave/brave-browser/issues/24210))
+ - [Security] Prevent blind cross chain signing as reported on HackerOne by julianor. ([#29798](https://github.com/brave/brave-browser/issues/29798))
+ - Removed Transak assets which are not supported in the US. ([#28866](https://github.com/brave/brave-browser/issues/28866))
+ - Removed NFTs from being displayed under "Portfolio". ([#29330](https://github.com/brave/brave-browser/issues/29330))
+ - Fixed missing network icons (Aurora, Arbitrum etc..) to show actual icon instead of ETH icon on "Asset" list. ([#29166](https://github.com/brave/brave-browser/issues/29166))
+ - Fixed incorrect NFTs being displayed when wallet is unlocked. ([#28301](https://github.com/brave/brave-browser/issues/28301))
+ - Fixed NFTs with same token identifiers may display incorrect balance. ([#28627](https://github.com/brave/brave-browser/issues/28627))
+ - Fixed issue with graph not being displayed when network is changed. ([#28748](https://github.com/brave/brave-browser/issues/28748))
+ - Fixed crash when pulling image assets when activity context has been destroyed. ([#29473](https://github.com/brave/brave-browser/issues/29473))
+
+### Brave Rewards
+
+ - Fixed creator counter not being displayed in unconnected state. ([#29270](https://github.com/brave/brave-browser/issues/29270))
+
+### General
+
+ - Added "Google Sign-In" permission prompt. ([#28927](https://github.com/brave/brave-browser/issues/28927))
+ - Added support for scriptlet arguments with quotes or backslashes. ([#29099](https://github.com/brave/brave-browser/issues/29099))
+ - Added "View page with Speedreader" modal when visiting websites compatible with Speedreader. ([#28769](https://github.com/brave/brave-browser/issues/28769))
+ - Implemented "HTTPS by Default" feature. ([#28295](https://github.com/brave/brave-browser/issues/28295))
+ - Implemented WebUSB farbling. ([#28146](https://github.com/brave/brave-browser/issues/28146))
+ - Updated “HTTPS by Default” to fallback to HTTP when encountering an HTTP error code in response to an HTTPS upgrade. ([#28013](https://github.com/brave/brave-browser/issues/28013))
+ - Updated “HTTPS by Default” to work with “HttpsFirstModeV2" which fixes some capability problems, such as determining the correct referrer policy for a navigation. ([#28935](https://github.com/brave/brave-browser/issues/28935) & [#28809](https://github.com/brave/brave-browser/issues/28809))
+ - Fixed crash when switching back to original NTP after enabling Brave News in another tab. ([#29634](https://github.com/brave/brave-browser/issues/29634))
+ - Fixed crash when scrolling through Brave News feed in certain cases. ([#29343](https://github.com/brave/brave-browser/issues/29343))
+ - Fixed crash when adding widgets to Android home screen in certain cases. ([#28831](https://github.com/brave/brave-browser/issues/28831))
+ - Upgraded Chromium to 113.0.5672.77. ([#30096](https://github.com/brave/brave-browser/issues/30096)) ([Changelog for 113.0.5672.77](https://chromium.googlesource.com/chromium/src/+log/112.0.5615.165..113.0.5672.77?pretty=fuller&n=1000))
+
+## [1.50.121](https://github.com/brave/brave-browser/releases/tag/v1.50.121)
+
+### Web3
+
+ - Added support for biometric unlock when restoring a wallet. ([#20807](https://github.com/brave/brave-browser/issues/20807))
+ - Added navigation to new Swap WebUI in a new tab when selecting Swap from wallet. ([#29223](https://github.com/brave/brave-browser/issues/29223))
+ - Fixed crash when attempting to select different networks via https://app.uniswap.org on Android 8 devices. ([#29538](https://github.com/brave/brave-browser/issues/29538))
+
+### Brave Rewards
+
+ - Fixed "Notifications are disabled" being displayed under rewards panel even though notifications have been enabled on Android 8 devices. ([#29563](https://github.com/brave/brave-browser/issues/29563))
+ - Fixed "Note:" being displayed twice in the cross-custodial tipping notice via the rewards panel. ([#29081](https://github.com/brave/brave-browser/issues/29081))
+ - Fixed cross-custodial notice not being updated correctly via both the rewards panel and rewards banner. ([#29080](https://github.com/brave/brave-browser/issues/29080))
+ - Fixed "Loading..." spinner not being displayed under rewards panel when balance failed to fetch from custodian. ([#29054](https://github.com/brave/brave-browser/issues/29054))
+
+### General
+
+ - Fixed crash when attempting to set Brave as the default browser in certain cases. ([#29428](https://github.com/brave/brave-browser/issues/29428))
+ - Fixed crash when tipping via the rewards panel in certain cases. ([#29041](https://github.com/brave/brave-browser/issues/29041))
+ - Fixed crash when tipping with Android 8 devices. ([#29562](https://github.com/brave/brave-browser/issues/29562))
+ - Upgraded Chromium to 112.0.5615.138. ([#29839](https://github.com/brave/brave-browser/issues/29839)) ([Changelog for 112.0.5615.138](https://chromium.googlesource.com/chromium/src/+log/112.0.5615.121..112.0.5615.138?pretty=fuller&n=1000))
+
+## [1.50.114](https://github.com/brave/brave-browser/releases/tag/v1.50.114)
+
+### Web3
+
+ - Added Filecoin EVM to preloaded networks. ([#28954](https://github.com/brave/brave-browser/issues/28954))
+ - Implemented filtering options for "eth_subscribe" with "logs". ([#27842](https://github.com/brave/brave-browser/issues/27842))
+ - Updated Brave Wallet to use BalanceScanner contracts for ETH asset discovery. ([#28203](https://github.com/brave/brave-browser/issues/28203))
+ - Updated on-ramp support for Sardine and Transak purchases on Android. ([#23316](https://github.com/brave/brave-browser/issues/23316))
+ - Removed Sardine as an on-ramp provider for native BNB token. ([#29248](https://github.com/brave/brave-browser/issues/29248))
+
+### Brave Rewards
+
+ - Fixed Brave Rewards option being displayed under settings menu for unsupported countries. ([#28908](https://github.com/brave/brave-browser/issues/28908))
+ - Fixed crash in certain cases when interacting with the "Brave Rewards" modal that appears via New Tab Page. ([#28451](https://github.com/brave/brave-browser/issues/28451))
+ - Fixed rewards crash in certain cases. ([#28482](https://github.com/brave/brave-browser/issues/28482))
+ - Fixed "Earn Tokens" and "Give Back" text misalignment under the Brave Rewards onboarding panel. ([#28278](https://github.com/brave/brave-browser/issues/28278))
+
+### General
+
+ - Added Brave News V2. ([#28476](https://github.com/brave/brave-browser/issues/28476))
+ - Added brave://flags/#brave-sync-send-all-history flag to enable the ability to send all history entries to Brave Sync. ([#28062](https://github.com/brave/brave-browser/issues/28062))
+ - Added support for ":-abp-has()" procedural selector in adblock rules. ([#28609](https://github.com/brave/brave-browser/issues/28609))
+ - Added and enabled "Fanboy's Mobile Notification List" by default. ([#25079](https://github.com/brave/brave-browser/issues/25079))
+ - Enabled all available regional adblock filter lists for a given locale on first launch. ([#20825](https://github.com/brave/brave-browser/issues/20825))
+ - Updated widget onboarding so it only appears after Brave has been opened 25 times. ([#27648](https://github.com/brave/brave-browser/issues/27648))
+ - Updated adblock rules created by the "Don't warn me about this site again" domain blocking interstitial to be more strict. ([#28390](https://github.com/brave/brave-browser/issues/28390))
+ - Fixed Brave Shields onboarding being interrupted by other onboarding modals. ([#27644](https://github.com/brave/brave-browser/issues/27644))
+ - Fixed search queries being added into "Top Sites" under New Tab Page. ([#29093](https://github.com/brave/brave-browser/issues/29093))
+ - Fixed error when logging in https://account.t-mobile.com. ([#28945](https://github.com/brave/brave-browser/issues/28945))
+ - Fixed crash when viewing passwords in "Password Manager" when system text is set as bold via "Display size & text". ([#29344](https://github.com/brave/brave-browser/issues/29344))
+ - Fixed news sources not being unfollowed when removing via the context menu under New Tab Page. ([#28865](https://github.com/brave/brave-browser/issues/28865))
+ - Fixed widget crash in certain cases. ([#27946](https://github.com/brave/brave-browser/issues/27946))
+ - Upgraded Chromium to 112.0.5615.49. ([#29396](https://github.com/brave/brave-browser/issues/29396)) ([Changelog for 112.0.5615.49](https://chromium.googlesource.com/chromium/src/+log/111.0.5563.147..112.0.5615.49?pretty=fuller&n=1000))
+
+## [1.49.132](https://github.com/brave/brave-browser/releases/tag/v1.49.132)
+
+### Web3
+
+ - Fixed issue with multiple onboarding tabs opening up for Magic Eden. ([#28546](https://github.com/brave/brave-browser/issues/28546))
+
+### General
+
+ - Fixed crash when scrolling through the Brave News feed in certain cases. ([#28576](https://github.com/brave/brave-browser/issues/28576))
+ - Upgraded Chromium to 111.0.5563.147. ([#29341](https://github.com/brave/brave-browser/issues/29341)) ([Changelog for 111.0.5563.147](https://chromium.googlesource.com/chromium/src/+log/111.0.5563.116..111.0.5563.147?pretty=fuller&n=1000))
+
+## [1.49.129](https://github.com/brave/brave-browser/releases/tag/v1.49.129)
+
+### Web3
+
+  - Added "Swap" button to the token details screen. ([#28914](https://github.com/brave/brave-browser/issues/28914))
+  - Fixed missing users wallet address as fee payer when submitting Solana transactions in certain cases. ([#28955](https://github.com/brave/brave-browser/issues/28955))
+  - Fixed token balance not being updated correctly when user changes network or accounts. ([#28879](https://github.com/brave/brave-browser/issues/28879))
+
+### General
+
+ - Fixed blob partitioning. ([#28934](https://github.com/brave/brave-browser/issues/28934)) 
+ - Fixed "Share via" not working in Custom Tabs. ([#28805](https://github.com/brave/brave-browser/issues/28805)) 
+ - Fixed searching or opening pages through the URL bar not correctly triggering events for user activity. ([#28826](https://github.com/brave/brave-browser/issues/28826)) 
+ - Fixed subscription "Status" and "Expires" fields appearing blank after redeeming a VPN subscription. ([#28910](https://github.com/brave/brave-browser/issues/28910)) 
+ - Fixed crash when adding VPN subscription in certain cases. ([#29037](https://github.com/brave/brave-browser/issues/29037)) 
+ - Fixed crash when the "Enable" VPN modal is displayed in certain cases. ([#29039](https://github.com/brave/brave-browser/issues/29039)) 
+ - Fixed crash when the bottom toolbar is initialized in certain cases. ([#29184](https://github.com/brave/brave-browser/issues/29184)) 
+ - Upgraded Chromium to 111.0.5563.116. ([#29229](https://github.com/brave/brave-browser/issues/29229)) ([Changelog for 111.0.5563.116](https://chromium.googlesource.com/chromium/src/+log/111.0.5563.64..111.0.5563.116?pretty=fuller&n=1000))
+
+## [1.49.122](https://github.com/brave/brave-browser/releases/tag/v1.49.122)
+
+### Web3
+
+ - Added auto-discovery of Solana assets. ([#27246](https://github.com/brave/brave-browser/issues/27246))
+ - Added loading skeletons to Brave Wallet asset list on the "Portfolio" and "Account" pages. ([#27344](https://github.com/brave/brave-browser/issues/27344))
+ - Implemented "logs" support for "eth_subscribe". ([#27283](https://github.com/brave/brave-browser/issues/27283))
+
+### Brave Rewards
+ 
+ - Implemented vBAT messaging. ([#27883](https://github.com/brave/brave-browser/issues/27883))
+ - Updated Brave Rewards for users in specific countries to disallow enabling and show clearer unavailable messaging. ([#25276](https://github.com/brave/brave-browser/issues/25276))
+ - Fixed accidental tipping by not selecting a tipping amount by default under the tipping banner. ([#7767](https://github.com/brave/brave-browser/issues/7767))
+ - Fixed crash in rewards tipping banner in certain cases. ([#28316](https://github.com/brave/brave-browser/issues/28316))
+ - Fixed crash in rewards site banner in certain cases. ([#28088](https://github.com/brave/brave-browser/issues/28088))
+ - Fixed "Accourding" spelling error under the limited functionality toast notification. ([#28215](https://github.com/brave/brave-browser/issues/28215)) 
+
+### General
+
+ - Added support for ":has" pseudoclass in cosmetic filters. ([#27874](https://github.com/brave/brave-browser/issues/27874))
+ - Added support for "$match-case" option for adblock filters. ([#28194](https://github.com/brave/brave-browser/issues/28194))
+ - Added ability to disable download progress notifications via "Downloads" settings. ([#25611](https://github.com/brave/brave-browser/issues/25611))
+ - Enabled Safe Browsing by default. ([#27642](https://github.com/brave/brave-browser/issues/27642))
+ - Included "Fanboy's Mobile Notifications List" in brave://adblock by default. ([#24506](https://github.com/brave/brave-browser/issues/24506))
+ - [Security] Restricted QR scanner to only open HTTP/HTTPS URL schemas rather than allowing any valid URL schema to be opened. ([#28703](https://github.com/brave/brave-browser/issues/28703))
+ - Removed the search engine onboarding for new installations in India. ([#28656](https://github.com/brave/brave-browser/issues/27709))
+ - Updated default search engine to Brave Search for new installations in India. ([#27709](https://github.com/brave/brave-browser/issues/28656))
+ - Fixed crash when accessing Brave VPN billing in certain cases. ([#28946](https://github.com/brave/brave-browser/issues/28946))
+ - Fixed crash when viewing the retention notification in certain cases. ([#28317](https://github.com/brave/brave-browser/issues/28317))
+ - Fixed "Open in New Tab" under Brave News not opening tabs in background. ([#26289](https://github.com/brave/brave-browser/issues/26289))
+ - Fixed "Rate Brave" button overlapping the "Liking Brave" rating card in certain cases. ([#28315](https://github.com/brave/brave-browser/issues/28315))
+ - Fixed Brave icons being incorrectly sized in Android's browser app picker. ([#27937](https://github.com/brave/brave-browser/issues/27937))
+ - Upgraded Chromium to 111.0.5563.64. ([#28922](https://github.com/brave/brave-browser/issues/28922)) ([Changelog for 111.0.5563.64](https://chromium.googlesource.com/chromium/src/+log/110.0.5481.177..111.0.5563.64?pretty=fuller&n=1000))
+
+## [1.48.171](https://github.com/brave/brave-browser/releases/tag/v1.48.171)
+
+ - Fixed crash when fetching balance on the "Portfolio" screen via Brave Wallet in certain cases. ([#28452](https://github.com/brave/brave-browser/issues/28452))
+ - Fixed long wait times when starting a sync chain with multiple devices with a large amount of bookmarks. ([#27931](https://github.com/brave/brave-browser/issues/27931))
+ - Fixed incorrect aspect ratio being used on certain New Tab Page images. ([#28450](https://github.com/brave/brave-browser/issues/28450))
+ - Fixed crash when quickly selecting a search engine from "Private Tab" and then closing the "Settings" page. ([#28262](https://github.com/brave/brave-browser/issues/28262))
+ - Fixed crash when opening New Tab Page in certain cases. ([#28457](https://github.com/brave/brave-browser/issues/28457))
+ - Fixed crash when running through the welcome onboarding in certain cases. ([#28458](https://github.com/brave/brave-browser/issues/28458)) ([#28598](https://github.com/brave/brave-browser/issues/28598))
+ - Removed auto contribution slide from the Brave Rewards onboarding panel in Japan region. ([#28221](https://github.com/brave/brave-browser/issues/28221))
+ - Upgraded Chromium to 110.0.5481.177. ([#28690](https://github.com/brave/brave-browser/issues/28690)) ([Changelog for 110.0.5481.177](https://chromium.googlesource.com/chromium/src/+log/110.0.5481.104..110.0.5481.177?pretty=fuller&n=1000))
+
+## [1.48.164](https://github.com/brave/brave-browser/releases/tag/v1.48.164)
+
+ - Upgraded Chromium to 110.0.5481.100. ([#28515](https://github.com/brave/brave-browser/issues/28515)) ([Changelog for 110.0.5481.100](https://chromium.googlesource.com/chromium/src/+log/110.0.5481.77..110.0.5481.100?pretty=fuller&n=1000))
+
+## [1.48.160](https://github.com/brave/brave-browser/releases/tag/v1.48.160)
+
+ - Added NFT asset details screen in Brave Wallet. ([#27276](https://github.com/brave/brave-browser/issues/27276))
+ - Added support to add Solana NFT to Brave Wallet and implemented Solana NFT details screen. ([#27803](https://github.com/brave/brave-browser/issues/27803))
+ - Added NFT section in "Portfolio" page via Brave Wallet. ([#27777](https://github.com/brave/brave-browser/issues/27777))
+ - Added "Solana Naming Service" (SNS) preference under the "Brave Shields & privacy" settings to resolve SNS domains. ([#27392](https://github.com/brave/brave-browser/issues/27392))
+ - Added support for "eth_signTransaction" and "eth_sendRawTransaction" in Brave Wallet. ([#23582](https://github.com/brave/brave-browser/issues/23582))
+ - Added ENS L2 address resolution in Brave Wallet. ([#27465](https://github.com/brave/brave-browser/issues/27465))
+ - Added and updated rewards states for Brave Rewards changes as described in https://brave.com/rewards-changes. ([#27055](https://github.com/brave/brave-browser/issues/27055))
+ - Added "Auto-redirect tracking URLs" setting under brave://settings/shields. ([#24020](https://github.com/brave/brave-browser/issues/24020))
+ - Added ability to hide privacy stats from the New Tab Page using the "Show Brave Stats" toggle via the "New tab page" settings. ([#22921](https://github.com/brave/brave-browser/issues/22921))
+ - Implemented ENS/SNS/UD address resolution for Brave Wallet addresses. ([#27464](https://github.com/brave/brave-browser/issues/27464))
+ - Improved various rating prompts within Brave. ([#25777](https://github.com/brave/brave-browser/issues/25777))
+ - [Security] Added the ability to delete a Brave Sync chain. ([#22884](https://github.com/brave/brave-browser/issues/22884))
+ - [Security] Added ability to enable Safe Browsing via brave://flags. ([#8705](https://github.com/brave/brave-browser/issues/8705))
+ - [Security] Fixed EIP712Domain data not being displayed in Brave Wallet when signing messages as reported on HackerOne by julianor. ([#28048](https://github.com/brave/brave-browser/issues/28048))
+ - Reverted Twitter's "t" tracking parameter removal due to webcompat issues in certain cases. ([#28184](https://github.com/brave/brave-browser/issues/28184))
+ - Removed crypto widgets. ([#26865](https://github.com/brave/brave-browser/issues/26865))
+ - Removed address resolution for ".coin" TLD from Unstoppable Domains. ([#27436](https://github.com/brave/brave-browser/issues/27436))
+ - Removed "user wallet" language in the custodian submenu via the rewards panel. ([#27190](https://github.com/brave/brave-browser/issues/27190))
+ - Removed known Yahoo tracking parameters from URLs. ([#25691](https://github.com/brave/brave-browser/issues/25691))
+ - Removed known Twitter tracking parameters "ref_src" and "ref_url" from URLs. ([#26966](https://github.com/brave/brave-browser/issues/26966))
+ - Updated "Learn more" link under Brave Rewards panel from https://brave.com/brave-rewards to https://brave.com/rewards-changes. ([#27986](https://github.com/brave/brave-browser/issues/27986))
+ - Updated "Learn more" link under P3A onboarding from https://brave.com/privacy/browser/#how-we-improve-brave to https://support.brave.com/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-. ([#27279](https://github.com/brave/brave-browser/issues/27279))
+ - Limited account names to thirty characters in Brave Wallet. ([#23362](https://github.com/brave/brave-browser/issues/23362))
+ - Fixed the back button and swipe navigation in Brave Wallet that prevented users from leaving the Brave Wallet view on Android 13. ([#27787](https://github.com/brave/brave-browser/issues/27787))
+ - Fixed issue with "Portfolio" graph when adding an NFT with an non-existent Token ID in Brave Wallet. ([#26803](https://github.com/brave/brave-browser/issues/26803))
+ - Fixed crash in Brave Wallet when Solana is selected as the default provider. ([#28147](https://github.com/brave/brave-browser/issues/28147))
+ - Fixed crash when changing the default network in Brave Wallet in certain cases. ([#28225](https://github.com/brave/brave-browser/issues/28225)) 
+ - Fixed cosmetic filters not being applied on certain websites. ([#27098](https://github.com/brave/brave-browser/issues/27098))
+ - Fixed amp="true" not being detected by DeAMP regex which prevented websites from being redirected to non-AMP websites. ([#27477](https://github.com/brave/brave-browser/issues/27477))
+ - Fixed crash when opening links from third party apps while Brave set as default browser in certain cases. ([#28087](https://github.com/brave/brave-browser/issues/28087))
+ - Fixed crash on New Tab Page when interacting with Brave News in certain cases. ([#28089](https://github.com/brave/brave-browser/issues/28089))
+ - Fixed crash when enabling Brave News while device has no internet connection. ([#28197](https://github.com/brave/brave-browser/issues/28197))
+ - Fixed "Enable notifications from Brave to earn Brave Rewards" modal not being displayed during Brave Rewards panel onboarding when "Brave Ads" notifications have been disabled via the "Notification" settings. ([#27851](https://github.com/brave/brave-browser/issues/27851))
+ - Fixed "Get weekly privacy updates on tracker & ad blocking" not being displayed when "General" notifications have been disabled via the "Notification" settings. ([#27852](https://github.com/brave/brave-browser/issues/27852))
+ - Fixed "Not now" button being cut off via widget onboarding on certain devices. ([#27825](https://github.com/brave/brave-browser/issues/27825))
+ - Upgraded Chromium to 110.0.5481.77. ([#28219](https://github.com/brave/brave-browser/issues/28219)) ([Changelog for 110.0.5481.77](https://chromium.googlesource.com/chromium/src/+log/109.0.5414.119..110.0.5481.77?pretty=fuller&n=1000))
+
+## [1.47.188](https://github.com/brave/brave-browser/releases/tag/v1.47.188)
+
+ - Reverted [#27757](https://github.com/brave/brave-browser/issues/27757) which was causing issues on certain Samsung devices due to old widgets not being removed from the manifest file. ([#28118](https://github.com/brave/brave-browser/issues/28118))
+ - Fixed crash when scrolling through the Brave News feed in certain cases. ([#28086](https://github.com/brave/brave-browser/issues/28086))
+
+## [1.47.186](https://github.com/brave/brave-browser/releases/tag/v1.47.186)
+
+ - Added Ramp network support in Brave Wallet. ([#27678](https://github.com/brave/brave-browser/issues/27678))
+ - Fixed crash when creating a Brave Wallet in certain cases. ([#27805](https://github.com/brave/brave-browser/issues/27805))
+ - Fixed crash when displaying the Brave search widget onboarding in certain cases. ([#27903](https://github.com/brave/brave-browser/issues/27903))
+ - Fixed some "$removeparam" filter rules not being applied to document requests. ([#27819](https://github.com/brave/brave-browser/issues/27819))
+ - Fixed crash in "DomainBlockNavigationThrottle" in certain cases when adding "$removeparam" rules into "brave://settings/shields/filters". ([#27791](https://github.com/brave/brave-browser/issues/27791))
+ - Fixed intermittent crash when accessing DApps. ([#28015](https://github.com/brave/brave-browser/issues/28015))
+ - Fixed crash when scrolling through the Brave News feed in certain cases. ([#27836](https://github.com/brave/brave-browser/issues/27836))
+ - Fixed startup crash when attempting to access the ads notification channel when not created in certain cases. ([#27982](https://github.com/brave/brave-browser/issues/27982))
+ - Fixed crash when updating settings menu icon state in certain cases. ([#27856](https://github.com/brave/brave-browser/issues/27856))
+ - Fixed crash when accessing Brave VPN billing in certain cases. ([#27751](https://github.com/brave/brave-browser/issues/27751))
+ - Fixed "Top Tile" icons being cut off within the quick action widget on certain devices. ([#26645](https://github.com/brave/brave-browser/issues/26645))
+ - Fixed icons within the bookmark widget not being displayed correctly when minimized vertically. ([#27801](https://github.com/brave/brave-browser/issues/27801))
+ - Fixed placeholder text within search widget not being updated when changing default search engine. ([#27749](https://github.com/brave/brave-browser/issues/27749))
+ - Fixed legacy widgets not being removed from current widget list after updating profile. ([#27757](https://github.com/brave/brave-browser/issues/27757))
+ - Fixed text under the permission request modals when using dark theme. ([#27767](https://github.com/brave/brave-browser/issues/27767))
+ - Upgraded Chromium to 109.0.5414.119. ([#28011](https://github.com/brave/brave-browser/issues/28011)) ([Changelog for 109.0.5414.119](https://chromium.googlesource.com/chromium/src/+log/109.0.5414.87..109.0.5414.119?pretty=fuller&n=1000))
+
+## [1.47.175](https://github.com/brave/brave-browser/releases/tag/v1.47.175)
+
+ - Fixed several crashes related to the permission request modals for Brave Rewards and Privacy Report. ([#27810](https://github.com/brave/brave-browser/issues/27810)) ([#27809](https://github.com/brave/brave-browser/issues/27809))
+ - Fixed crash when viewing ad notifications in certain cases. ([#27808](https://github.com/brave/brave-browser/issues/27808))
+
+## [1.47.172](https://github.com/brave/brave-browser/releases/tag/v1.47.172)
+
+ - Added Solana DApp support for Brave Wallet. ([#27527](https://github.com/brave/brave-browser/issues/27527))
+ - Added support for "$removeparam" adblock filter syntax under brave://settings/shields/filters. ([#23927](https://github.com/brave/brave-browser/issues/23927))
+ - Added "Connecting to selected custodian temporarily unavailable" error modal in Brave Rewards. ([#25125](https://github.com/brave/brave-browser/issues/25125))
+ - Added widget onboarding and updated widget previews to remove Chrome defaults. ([#22875](https://github.com/brave/brave-browser/issues/22875))
+ - Added ability to scroll through "Top Sites" on the New Tab Page. ([#26942](https://github.com/brave/brave-browser/issues/26942))
+ - [Security] Improved browser privacy by reducing high resolution timer precision as reported on HackerOne by joe12387. ([#24681](https://github.com/brave/brave-browser/issues/24681))
+ - [Security] Improved URL bar by always displaying eTLD+1 URLs. ([#26155](https://github.com/brave/brave-browser/issues/26155))
+ - Improved asset discovery for Brave Wallet. ([#25820](https://github.com/brave/brave-browser/issues/25820))
+ - Improved performance of cosmetic filtering in third-party iframes. ([#26212](https://github.com/brave/brave-browser/issues/26212))
+ - Updated permission request modals for Brave Rewards and Privacy Report when Android notifications are not enabled during onboarding or have been disabled. ([#27032](https://github.com/brave/brave-browser/issues/27032))
+ - Disabled the paint preview feature by default. ([#25123](https://github.com/brave/brave-browser/issues/25123))
+ - Removed "Restore" tab from "Manage Brave Rewards" modal. ([#26338](https://github.com/brave/brave-browser/issues/26338))
+ - Removed known tracking parameter "vgo_ee" from URLs. ([#26295](https://github.com/brave/brave-browser/issues/26295))
+ - Fixed NFT details page displaying as a token and listing all available accounts. ([#23507](https://github.com/brave/brave-browser/issues/23507))
+ - Fixed Brave News crash which occurred when certain characters were at the end of the title or description field. ([#26604](https://github.com/brave/brave-browser/issues/26604))
+ - Fixed default search engine for private tabs not updating until all private tabs have been closed. ([#25821](https://github.com/brave/brave-browser/issues/25821))
+ - Upgraded Chromium to 109.0.5414.87. ([#27710](https://github.com/brave/brave-browser/issues/27710)) ([Changelog for 109.0.5414.87](https://chromium.googlesource.com/chromium/src/+log/108.0.5359.128..109.0.5414.87?pretty=fuller&n=1000))
+
+## [1.46.154](https://github.com/brave/brave-browser/releases/tag/v1.46.154)
+
+ - Removed Wyre for buying crypto in Brave Wallet. ([#27681](https://github.com/brave/brave-browser/issues/27681))
+
+## [1.46.146](https://github.com/brave/brave-browser/releases/tag/v1.46.146)
+
+ - Added close button ("X") under Brave Rewards tipping banner. ([#26744](https://github.com/brave/brave-browser/issues/26744))
+ - Updated Brave Wallet to sign Solana transactions with selected account instead of fee payer. ([#27051](https://github.com/brave/brave-browser/issues/27051))
+ - Fixed crash during Brave Rewards onboarding when selecting country on both Android 6 and 7. ([#26286](https://github.com/brave/brave-browser/issues/26286))
+ - Fixed "Support this creator" not being displayed under the Brave Rewards tipping banner. ([#26740](https://github.com/brave/brave-browser/issues/26740))
+ - Fixed several spacing issues on Brave Rewards tipping banner when using tablet devices. ([#26739](https://github.com/brave/brave-browser/issues/26739))
+ - Upgraded Chromium to 108.0.5359.128. ([#27351](https://github.com/brave/brave-browser/issues/27351)) ([Changelog for 108.0.5359.128](https://chromium.googlesource.com/chromium/src/+log/108.0.5359.99..108.0.5359.128?pretty=fuller&n=1000))
+
+## [1.46.138](https://github.com/brave/brave-browser/releases/tag/v1.46.138)
+
+ - Fixed performance issue where fingerprint farbling caused some sites to load slowly or not at all. ([#26700](https://github.com/brave/brave-browser/issues/26700))
+ 
+## [1.46.134](https://github.com/brave/brave-browser/releases/tag/v1.46.134)
+
+ - Upgraded Chromium to 108.0.5359.94. ([#27130](https://github.com/brave/brave-browser/issues/27130)) ([Changelog for 108.0.5359.94](https://chromium.googlesource.com/chromium/src/+log/108.0.5359.71..108.0.5359.94?pretty=fuller&n=1000))
+
+## [1.46.133](https://github.com/brave/brave-browser/releases/tag/v1.46.133)
+
+ - Added asset discovery for tokens with non-zero balance when restoring Brave Wallet via seed phrase, private key import or via hardware wallet import. ([#19746](https://github.com/brave/brave-browser/issues/19746))
+ - Added custom tip amounts to Brave Rewards. ([#16021](https://github.com/brave/brave-browser/issues/16021))
+ - Added country selection requirement for Brave Rewards. ([#24543](https://github.com/brave/brave-browser/issues/24543))
+ - Added permission request modals for Brave Rewards and Privacy Report when Android notifications are not enabled during onboarding or have been disabled. ([#25042](https://github.com/brave/brave-browser/issues/25042))
+ - Added font fingerprinting protections. ([#24975](https://github.com/brave/brave-browser/issues/24975))
+ - [Security] Fixed "Dark Mode" detection not being blocked when fingerprinting protection is set as strict. ([#25851](https://github.com/brave/brave-browser/issues/25851))
+ - Updated Brave Wallet to ignore Chain ID casing. ([#25707](https://github.com/brave/brave-browser/issues/25707))
+ - Updated Brave Rewards onboarding via the rewards panel. ([#26041](https://github.com/brave/brave-browser/issues/26041))
+ - Updated Brave Rewards tipping banner. ([#17070](https://github.com/brave/brave-browser/issues/17070))
+ - Updated the notifications permission request modal on Android 13. ([#25593](https://github.com/brave/brave-browser/issues/25593))
+ - Updated adblock components to use plaintext lists. ([#25363](https://github.com/brave/brave-browser/issues/25363))
+ - Updated debouncing to only apply to cross site navigations. ([#25859](https://github.com/brave/brave-browser/issues/25859))
+ - Fixed locale parsing of send values in a Brave Wallet transaction. ([#24909](https://github.com/brave/brave-browser/issues/24909))
+ - Fixed Brave Wallet addresses not resolving under the "Send" screen when using QR scanner. ([#25731](https://github.com/brave/brave-browser/issues/25731))
+ - Fixed Brave Rewards banner displaying "Tip Amount" instead of "One-time tip amount" when creating a recurring monthly tip. ([#26348](https://github.com/brave/brave-browser/issues/26348))
+ - Fixed crash on https://d3ward.github.io/toolz/adblock when "RU Adlist" is enabled under brave://settings/shields/filters. ([#26075](https://github.com/brave/brave-browser/issues/26075))
+ - Fixed HTTPSE redirects taking precedence over adblock redirects. ([#26415](https://github.com/brave/brave-browser/issues/26415))
+ - Upgraded Chromium to 108.0.5359.71. ([#27041](https://github.com/brave/brave-browser/issues/27041)) ([Changelog for 108.0.5359.71](https://chromium.googlesource.com/chromium/src/+log/107.0.5304.141..108.0.5359.71?pretty=fuller&n=1000))
+
+## [1.45.133](https://github.com/brave/brave-browser/releases/tag/v1.45.133)
+
+ - Upgraded Chromium to 107.0.5304.141. ([#26965](https://github.com/brave/brave-browser/issues/26965)) ([Changelog for 107.0.5304.141](https://chromium.googlesource.com/chromium/src/+log/107.0.5304.110..107.0.5304.141?pretty=fuller&n=1000))
+
+## [1.45.131](https://github.com/brave/brave-browser/releases/tag/v1.45.131)
+
+- Added header for "search.brave.com" so Brave Search is aware when Brave Ads are enabled. ([#25430](https://github.com/brave/brave-browser/issues/25430))
+
+## [1.45.127](https://github.com/brave/brave-browser/releases/tag/v1.45.127)
+
+ - Added Solana NFT support in Brave Wallet. ([#26617](https://github.com/brave/brave-browser/issues/26617))
+ - Added new setting to enable/disable Brave Translate feature. ([#26154](https://github.com/brave/brave-browser/issues/26154))
+ - [Security] Fixed misleading signing request message in Brave Wallet. ([#26372](https://github.com/brave/brave-browser/issues/26372))
+ - Updated default search engine to Brave Search for new installations in certain regions. ([#26318](https://github.com/brave/brave-browser/issues/26318))
+
+## [1.45.123](https://github.com/brave/brave-browser/releases/tag/v1.45.123)
+
+ - Upgraded Chromium to 107.0.5304.110. ([#26621](https://github.com/brave/brave-browser/issues/26621)) ([Changelog for 107.0.5304.110](https://chromium.googlesource.com/chromium/src/+log/107.0.5304.91..107.0.5304.110?pretty=fuller&n=1000))
+
+## [1.45.120](https://github.com/brave/brave-browser/releases/tag/v1.45.120)
+
+ - Fixed crash when viewing a retention notification in certain cases. ([#26444](https://github.com/brave/brave-browser/issues/26444))
+ - Fixed crash when using the built-in password manager in certain cases. ([#26396](https://github.com/brave/brave-browser/issues/26396))
+ - Fixed crash when viewing "In-app notification settings" under "App notification". ([#26440](https://github.com/brave/brave-browser/issues/26440))
+
+## [1.45.116](https://github.com/brave/brave-browser/releases/tag/v1.45.116)
+
+ - Upgraded Chromium to 107.0.5304.91. ([#26292](https://github.com/brave/brave-browser/issues/26292)) ([Changelog for 107.0.5304.91](https://chromium.googlesource.com/chromium/src/+log/107.0.5304.62..107.0.5304.91?pretty=fuller&n=1000))
+
+## [1.45.113](https://github.com/brave/brave-browser/releases/tag/v1.45.113)
+
+ - Added dialog for blocking cookie consent banners. ([#8974](https://github.com/brave/brave-browser/issues/8974))
+ - Added QR code scanner to address bar. ([#21478](https://github.com/brave/brave-browser/issues/21478))
+ - Added additional language pairs to Brave Translate. ([#24303](https://github.com/brave/brave-browser/issues/24303))
+ - Added support for province level targeting for select Canadian provinces when using Brave Ads. ([#16682](https://github.com/brave/brave-browser/issues/16682))
+ - [Security] Added additional password protection for Brave Wallet show private key. ([#24830](https://github.com/brave/brave-browser/issues/24830))
+ - Implemented Solana connection state indicator on Brave Wallet panel. ([#24810](https://github.com/brave/brave-browser/issues/24810))
+ - Implemented multi-chain pending transaction requests on Brave Wallet panel. ([#24928](https://github.com/brave/brave-browser/issues/24928))
+ - Enabled theme support for Speedreader. ([#25116](https://github.com/brave/brave-browser/issues/25116))
+ - Improved fingerprinting privacy by adding farbling protections for screen resolution and coordinates. ([#23170](https://github.com/brave/brave-browser/issues/23170))
+ - Improved privacy by preventing private windows from inheriting permissions set in normal windows. ([#24720](https://github.com/brave/brave-browser/issues/24720))
+ - Improved brave://rewards responsiveness. ([#24570](https://github.com/brave/brave-browser/issues/24570))
+ - Updated the text colour of pre-set values to be more legible on the Brave Wallet "Send" screen. ([#24522](https://github.com/brave/brave-browser/issues/24522))
+ - Updated verified vs. unverified criteria for Brave Rewards creator channels. ([#25085](https://github.com/brave/brave-browser/issues/25085))
+ - Removed known Blueshift email tracking parameters from URLs. ([#25238](https://github.com/brave/brave-browser/issues/25238))
+ - Fixed crash when switching/selecting networks and quickly viewing asset details via Brave Wallet. ([#25131](https://github.com/brave/brave-browser/issues/25131))
+ - Fixed misaligned autocomplete icons under the address bar. ([#26063](https://github.com/brave/brave-browser/issues/26063))
+ - Fixed misaligned on-touch animation under Top Sites. ([#24676](https://github.com/brave/brave-browser/issues/24676))
+ - Upgraded Chromium to 107.0.5304.62. ([#26151](https://github.com/brave/brave-browser/issues/26151)) ([Changelog for 107.0.5304.62](https://chromium.googlesource.com/chromium/src/+log/106.0.5249.119..107.0.5304.62?pretty=fuller&n=1000))
+
 ## [1.44.114](https://github.com/brave/brave-browser/releases/tag/v1.44.114)
 
  - Fixed crash when tapping on Brave ads within the Brave News feed via the New Tab Page. ([#25933](https://github.com/brave/brave-browser/issues/25933))
